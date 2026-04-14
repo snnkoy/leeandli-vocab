@@ -1,0 +1,2228 @@
+﻿[
+    {
+        "id":  1,
+        "english":  "Licensor / Licensee",
+        "chinese":  "授權人 / 被授權人",
+        "note":  "字尾 -or 是給予權利者，-ee 是接受權利者。",
+        "example":  "The licensor reserves all rights not expressly granted to the licensee. (授權人保留所有未明示授予被授權人的權利。)"
+    },
+    {
+        "id":  2,
+        "english":  "Exclusive license",
+        "chinese":  "專屬授權",
+        "note":  "",
+        "example":  "They signed an exclusive license agreement for the new patent. (他們針對新專利簽署了一份專屬授權協議。)"
+    },
+    {
+        "id":  3,
+        "english":  "Sole license",
+        "chinese":  "獨家授權",
+        "note":  "",
+        "example":  "Under a sole license, the licensor cannot grant rights to any other third party. (在獨家授權下，授權人不得將權利授予任何其他第三方。)"
+    },
+    {
+        "id":  4,
+        "english":  "Non-exclusive license",
+        "chinese":  "非專屬授權",
+        "note":  "",
+        "example":  "The software is distributed under a non-exclusive license. (該軟體是以非專屬授權的方式發布。)"
+    },
+    {
+        "id":  5,
+        "english":  "Sublicense",
+        "chinese":  "次授權",
+        "note":  "經授權人同意，被授權人再授權給第三人。",
+        "example":  "The agreement forbids the company to sublicense the trademark. (該協議禁止公司將商標進行次授權。)"
+    },
+    {
+        "id":  6,
+        "english":  "Royalty / Royalties",
+        "chinese":  "權利金",
+        "note":  "通常指依比例或次數計算的授權費用。",
+        "example":  "The author receives a 10% royalty on all book sales. (作者可從所有書籍銷售中獲得 10% 的權利金。)"
+    },
+    {
+        "id":  7,
+        "english":  "Territory / Field of use",
+        "chinese":  "授權地域 / 領域",
+        "note":  "限定商標能使用的國家範圍或產業領域。",
+        "example":  "The rights are limited to a specific territory and field of use. (這些權利僅限於特定的授權地域與使用領域。)"
+    },
+    {
+        "id":  8,
+        "english":  "Assignment / Transfer",
+        "chinese":  "移轉 / 轉讓",
+        "note":  "權利主體的徹底變更（與授權不同）。",
+        "example":  "Any assignment or transfer of this contract requires written consent. (本合約的任何移轉或轉讓均需書面同意。)"
+    },
+    {
+        "id":  9,
+        "english":  "Confidentiality / Non-Disclosure Agreement (NDA)",
+        "chinese":  "保密條款 / 保密協議",
+        "note":  "",
+        "example":  "All employees must sign a Non-Disclosure Agreement before joining the project. (所有員工在加入專案前必須簽署保密協議。)"
+    },
+    {
+        "id":  10,
+        "english":  "Governing Law / Applicable Law",
+        "chinese":  "準據法",
+        "note":  "",
+        "example":  "The governing law for this contract shall be the laws of Taiwan. (本合約的準據法應為台灣法律。)"
+    },
+    {
+        "id":  11,
+        "english":  "Jurisdiction",
+        "chinese":  "管轄權 (合意管轄)",
+        "note":  "",
+        "example":  "The parties agree to the exclusive jurisdiction of the Taipei District Court. (雙方同意由台北地方法院取得專屬管轄權。)"
+    },
+    {
+        "id":  12,
+        "english":  "Breach of contract / Default",
+        "chinese":  "違約",
+        "note":  "In the event of a material breach... (若發生重大違約...)",
+        "example":  "Failure to deliver the goods on time constitutes a material breach of contract. (未能按時交貨即構成重大違約。)"
+    },
+    {
+        "id":  13,
+        "english":  "Termination",
+        "chinese":  "終止合約",
+        "note":  "合約向將來失效 (不溯及既往)。",
+        "example":  "Either party may give notice of termination 30 days in advance. (任一方得提前 30 天發出終止合約的通知。)"
+    },
+    {
+        "id":  14,
+        "english":  "Rescission",
+        "chinese":  "解除合約",
+        "note":  "合約溯及既往失效 (回復原狀)。",
+        "example":  "The buyer sought rescission of the contract due to fraud. (買方因詐欺而尋求解除合約。)"
+    },
+    {
+        "id":  15,
+        "english":  "Damages / Compensation",
+        "chinese":  "損害賠償",
+        "note":  "Damages 必須加 s 才是損害賠償金。",
+        "example":  "The plaintiff is seeking $50,000 in damages. (原告正尋求五萬美元的損害賠償。)"
+    },
+    {
+        "id":  16,
+        "english":  "Indemnification / Hold Harmless",
+        "chinese":  "補償 / 免責條款",
+        "note":  "",
+        "example":  "The contractor agrees to hold harmless the client from any claims. (承包商同意使客戶免於承擔任何索賠的免責條款。)"
+    },
+    {
+        "id":  17,
+        "english":  "Force Majeure",
+        "chinese":  "不可抗力",
+        "note":  "",
+        "example":  "The event was cancelled due to a force majeure, specifically a severe typhoon. (該活動因強烈颱風等不可抗力因素而取消。)"
+    },
+    {
+        "id":  18,
+        "english":  "Severability",
+        "chinese":  "可分性條款",
+        "note":  "某條文無效時，不影響其他條文之效力。",
+        "example":  "The severability clause ensures that the rest of the contract remains valid. (可分性條款確保合約其餘部分依然有效。)"
+    },
+    {
+        "id":  19,
+        "english":  "Execute / Sign",
+        "chinese":  "簽署 (合約)",
+        "note":  "法律文件多用 execute",
+        "example":  "Both parties will execute the agreement next Monday. (雙方將於下週一簽署合約。)"
+    },
+    {
+        "id":  20,
+        "english":  "Enter into",
+        "chinese":  "締結 / 簽訂 (合約)",
+        "note":  "",
+        "example":  "The two companies intend to enter into a joint venture agreement. (這兩家公司打算締結一份合資協議。)"
+    },
+    {
+        "id":  21,
+        "english":  "Become effective / Enter into force",
+        "chinese":  "生效",
+        "note":  "",
+        "example":  "This policy will enter into force on the first day of next month. (此政策將於下個月第一天生效。)"
+    },
+    {
+        "id":  22,
+        "english":  "Expire / Expiration",
+        "chinese":  "屆滿 (到期)",
+        "note":  "",
+        "example":  "Your subscription will expire at the end of the year. (您的訂閱將於年底屆滿到期。)"
+    },
+    {
+        "id":  23,
+        "english":  "Perform / Fulfill",
+        "chinese":  "履行 (義務)",
+        "note":  "",
+        "example":  "He failed to fulfill his obligations under the contract. (他未能履行其在合約下的義務。)"
+    },
+    {
+        "id":  24,
+        "english":  "Subject to",
+        "chinese":  "在...之前提下",
+        "note":  "",
+        "example":  "This offer is subject to the approval of the board of directors. (本要約需在董事會核准之前提下才成立。)"
+    },
+    {
+        "id":  25,
+        "english":  "Herein",
+        "chinese":  "於本合約中",
+        "note":  "",
+        "example":  "The terms defined herein shall apply to the entire document. (於本合約中所定義之條款應適用於整份文件。)"
+    },
+    {
+        "id":  26,
+        "english":  "Hereunder",
+        "chinese":  "依本合約規定",
+        "note":  "",
+        "example":  "All payments due hereunder must be paid in US dollars. (依本合約規定應付之所有款項必須以美元支付。)"
+    },
+    {
+        "id":  27,
+        "english":  "Evidence / Evidence of use",
+        "chinese":  "證據/使用證據",
+        "note":  "",
+        "example":  "The applicant must provide evidence of use to maintain the trademark. (申請人必須提供使用證據以維持該商標。)"
+    },
+    {
+        "id":  28,
+        "english":  "Response / Brief",
+        "chinese":  "答辯書",
+        "note":  "",
+        "example":  "The lawyer submitted a response to the court yesterday. (律師昨天向法院提交了答辯書。)"
+    },
+    {
+        "id":  29,
+        "english":  "Office Action / Notice of Deficiencies",
+        "chinese":  "核駁理由先行通知",
+        "note":  "",
+        "example":  "We have three months to reply to the Office Action. (我們有三個月的時間來回覆核駁理由先行通知。)"
+    },
+    {
+        "id":  30,
+        "english":  "Examination Guidelines",
+        "chinese":  "審查基準",
+        "note":  "",
+        "example":  "The examiner rejected the application based on the current Examination Guidelines. (審查委員根據現行的審查基準核駁了該申請案。)"
+    },
+    {
+        "id":  31,
+        "english":  "shall / shall not",
+        "chinese":  "應 / 不得",
+        "note":  "絕對不要用 must 或 should",
+        "example":  "The Licensee shall not disclose any confidential information to third parties. (被授權人不得向第三方洩露任何機密資訊。)"
+    },
+    {
+        "id":  32,
+        "english":  "may",
+        "chinese":  "得",
+        "note":  "不要用 can",
+        "example":  "The court may grant an injunction to stop the infringement. (法院得核發禁制令以阻止侵權行為。)"
+    },
+    {
+        "id":  33,
+        "english":  "shall be deemed to / shall be presumed to",
+        "chinese":  "視為 / 推定",
+        "note":  "",
+        "example":  "A late response shall be deemed to be an abandonment of the application. (逾期答辯將視為放棄該申請案。)"
+    },
+    {
+        "id":  34,
+        "english":  "mutatis mutandis",
+        "chinese":  "準用",
+        "note":  "",
+        "example":  "The provisions of Article 5 shall apply mutatis mutandis to this section. (第五條之規定於本節準用之。)"
+    },
+    {
+        "id":  35,
+        "english":  "Provided, however, that... / Provided that...",
+        "chinese":  "但書 (但...)",
+        "note":  "",
+        "example":  "The contract is valid for five years, provided, however, that either party may terminate it earlier. (本合約有效期間為五年，但任一方得提前終止。)"
+    },
+    {
+        "id":  36,
+        "english":  "With respect to / Regarding",
+        "chinese":  "關於 / 至於",
+        "note":  "放在句首引出條件",
+        "example":  "With respect to your inquiry, we will reply by tomorrow. (關於您的詢問，我們將於明日回覆。)"
+    },
+    {
+        "id":  37,
+        "english":  "abandonment of a mark",
+        "chinese":  "商標之拋棄",
+        "note":  "",
+        "example":  "Non-use for three consecutive years may lead to the abandonment of a mark. (連續三年未使用可能導致商標之拋棄。)"
+    },
+    {
+        "id":  38,
+        "english":  "absolute grounds",
+        "chinese":  "絕對核駁理由",
+        "note":  "",
+        "example":  "The trademark was refused registration on absolute grounds. (該商標因絕對核駁理由而被拒絕註冊。)"
+    },
+    {
+        "id":  39,
+        "english":  "acquired distinctiveness",
+        "chinese":  "後天識別性 / 取得之識別性",
+        "note":  "",
+        "example":  "The descriptive term has acquired distinctiveness through extensive use over the years. (該描述性名詞多年來透過廣泛使用已取得後天識別性。)"
+    },
+    {
+        "id":  40,
+        "english":  "address for service",
+        "chinese":  "送達代收人地址 / 送達地址",
+        "note":  "",
+        "example":  "Please provide a local address for service in Taiwan. (請提供位於台灣的送達代收人地址。)"
+    },
+    {
+        "id":  41,
+        "english":  "aesthetic functionality",
+        "chinese":  "美感功能性",
+        "note":  "",
+        "example":  "The design was rejected because it serves an aesthetic functionality rather than acting as a trademark. (該設計因具備美感功能性而非商標功能遭到核駁。)"
+    },
+    {
+        "id":  42,
+        "english":  "Agreement on Trade-Related Aspects of Intellectual Property Right (TRIPS)",
+        "chinese":  "與貿易有關之智慧財產權協定",
+        "note":  "",
+        "example":  "The new regulations comply with the Agreement on Trade-Related Aspects of Intellectual Property Rights. (新法規符合與貿易有關之智慧財產權協定。)"
+    },
+    {
+        "id":  43,
+        "english":  "allegation of use",
+        "chinese":  "使用聲明",
+        "note":  "",
+        "example":  "The applicant filed an allegation of use to prove the mark is in commerce. (申請人提交了使用聲明以證明該商標已在商業上使用。)"
+    },
+    {
+        "id":  44,
+        "english":  "Alternative Dispute Resolution (ADR)",
+        "chinese":  "訴訟外紛爭解決機制",
+        "note":  "",
+        "example":  "Mediation is a common form of Alternative Dispute Resolution (ADR). (調解是一種常見的訴訟外紛爭解決機制。)"
+    },
+    {
+        "id":  45,
+        "english":  "Amendment to Allege Use (AAU)",
+        "chinese":  "修正使用聲明",
+        "note":  "",
+        "example":  "You can file an Amendment to Allege Use before the application is approved for publication. (您可以在申請案獲准公告前提交修正使用聲明。)"
+    },
+    {
+        "id":  46,
+        "english":  "Anticybersquatting Consumer Protection Act (ACPA)",
+        "chinese":  "反網域名稱搶註消費者保護法",
+        "note":  "",
+        "example":  "The plaintiff sued the domain name registrant under the Anticybersquatting Consumer Protection Act (ACPA). (原告依據反網域名稱搶註消費者保護法對網域名稱註冊人提起訴訟。)"
+    },
+    {
+        "id":  47,
+        "english":  "appeal court",
+        "chinese":  "上訴法院",
+        "note":  "",
+        "example":  "The decision of the lower court was overturned by the appeal court. (下級法院的判決被上訴法院推翻了。)"
+    },
+    {
+        "id":  48,
+        "english":  "appearance of a mark",
+        "chinese":  "商標外觀",
+        "note":  "",
+        "example":  "The overall appearance of a mark is crucial in determining the likelihood of confusion. (商標的整體外觀在判斷混淆誤認之虞時至關重要。)"
+    },
+    {
+        "id":  49,
+        "english":  "appellation of origin",
+        "chinese":  "原產地名稱",
+        "note":  "",
+        "example":  "Champagne is a famous appellation of origin protected by international law. (「香檳」是受國際法保護的著名原產地名稱。)"
+    },
+    {
+        "id":  50,
+        "english":  "applicant",
+        "chinese":  "申請人",
+        "note":  "",
+        "example":  "The applicant must sign the declaration form. (申請人必須在聲明書上簽名。)"
+    },
+    {
+        "id":  51,
+        "english":  "application",
+        "chinese":  "申請 / 申請案",
+        "note":  "",
+        "example":  "Your trademark application is currently under review by the examiner. (您的商標申請案目前正由審查委員審查中。)"
+    },
+    {
+        "id":  52,
+        "english":  "arbitrary mark",
+        "chinese":  "任意性商標",
+        "note":  "",
+        "example":  "An arbitrary mark uses a common word in an unfamiliar way, like \"Apple\" for computers. (任意性商標是以不常見的方式使用常見詞彙，例如將「蘋果」用於電腦。)"
+    },
+    {
+        "id":  53,
+        "english":  "Asian Patent Attorneys Association (APAA)",
+        "chinese":  "亞洲專利代理人協會",
+        "note":  "",
+        "example":  "She is an active member of the Asian Patent Attorneys Association (APAA). (她是亞洲專利代理人協會的活躍成員。)"
+    },
+    {
+        "id":  54,
+        "english":  "Asia-Pacific Economic Cooperation (APEC)",
+        "chinese":  "亞太經濟合作會議",
+        "note":  "",
+        "example":  "The new IP guidelines were discussed during the Asia-Pacific Economic Cooperation (APEC) meeting. (新的智財準則在亞太經濟合作會議期間進行了討論。)"
+    },
+    {
+        "id":  55,
+        "english":  "Assertions of Use in Commerce",
+        "chinese":  "商業上使用之主張",
+        "note":  "",
+        "example":  "The trademark office requires clear assertions of use in commerce. (商標局要求明確的商業上使用之主張。)"
+    },
+    {
+        "id":  56,
+        "english":  "assignee",
+        "chinese":  "受讓人",
+        "note":  "",
+        "example":  "The assignee now holds all rights and interests to the patent. (受讓人現在擁有該專利的所有權利與利益。)"
+    },
+    {
+        "id":  57,
+        "english":  "assignment in gross",
+        "chinese":  "商標單獨讓與（不連同營業信譽讓與）",
+        "note":  "",
+        "example":  "An assignment in gross is generally invalid under trademark law. (商標單獨讓與在商標法下通常是無效的。)"
+    },
+    {
+        "id":  58,
+        "english":  "assignor",
+        "chinese":  "讓與人",
+        "note":  "",
+        "example":  "The assignor agreed to transfer the intellectual property rights. (讓與人同意轉讓智慧財產權。)"
+    },
+    {
+        "id":  59,
+        "english":  "associated goods/services",
+        "chinese":  "相關商品 / 服務",
+        "note":  "",
+        "example":  "The mark is registered for clothing and associated goods/services. (該商標已註冊用於服裝及相關商品/服務。)"
+    },
+    {
+        "id":  60,
+        "english":  "associated mark",
+        "chinese":  "聯合商標",
+        "note":  "",
+        "example":  "The applicant filed an application for an associated mark to protect a variation of their core brand. (申請人為保護其核心品牌的變體，提交了聯合商標的申請。)"
+    },
+    {
+        "id":  61,
+        "english":  "Association of South East Asian Nations (ASEAN)",
+        "chinese":  "東南亞國家協會（東協）",
+        "note":  "",
+        "example":  "The IP regulations were harmonized across the Association of South East Asian Nations (ASEAN). (智財法規在東南亞國家協會各國之間進行了協調。)"
+    },
+    {
+        "id":  62,
+        "english":  "bad faith",
+        "chinese":  "惡意",
+        "note":  "",
+        "example":  "The competitor registered the domain name in bad faith. (競爭對手惡意註冊了該網域名稱。)"
+    },
+    {
+        "id":  63,
+        "english":  "Benelux Registration system",
+        "chinese":  "荷比盧商標註冊系統",
+        "note":  "",
+        "example":  "They secured trademark protection through the Benelux Registration system. (他們透過荷比盧商標註冊系統獲得了商標保護。)"
+    },
+    {
+        "id":  64,
+        "english":  "Berne Convention",
+        "chinese":  "伯恩公約",
+        "note":  "",
+        "example":  "The Berne Convention protects literary and artistic works internationally. (伯恩公約在國際上保護文學與藝術作品。)"
+    },
+    {
+        "id":  65,
+        "english":  "bilateral investment treaties (BIT)",
+        "chinese":  "雙邊投資協定",
+        "note":  "",
+        "example":  "The two countries signed bilateral investment treaties (BIT) to encourage foreign investments. (兩國簽署了雙邊投資協定以鼓勵外國投資。)"
+    },
+    {
+        "id":  66,
+        "english":  "bona fide",
+        "chinese":  "善意",
+        "note":  "",
+        "example":  "The company demonstrated a bona fide intention to use the trademark. (該公司展現了善意使用該商標的意圖。)"
+    },
+    {
+        "id":  67,
+        "english":  "border protection",
+        "chinese":  "邊境保護 / 邊境管制",
+        "note":  "",
+        "example":  "We must strengthen border protection to prevent counterfeit goods from entering the country. (我們必須加強邊境管制以防止仿冒品進入國內。)"
+    },
+    {
+        "id":  68,
+        "english":  "Brussels Convention",
+        "chinese":  "布魯塞爾公約",
+        "note":  "",
+        "example":  "The jurisdiction issue was resolved according to the Brussels Convention. (管轄權問題已根據布魯塞爾公約解決。)"
+    },
+    {
+        "id":  69,
+        "english":  "burden of proof",
+        "chinese":  "舉證責任",
+        "note":  "",
+        "example":  "The burden of proof lies with the plaintiff in an infringement lawsuit. (在侵權訴訟中，舉證責任在於原告。)"
+    },
+    {
+        "id":  70,
+        "english":  "cause confusion",
+        "chinese":  "導致混淆 / 引起混淆",
+        "note":  "",
+        "example":  "The similar packaging is likely to cause confusion among consumers. (相似的包裝很可能導致消費者混淆。)"
+    },
+    {
+        "id":  71,
+        "english":  "cease and desist letter",
+        "chinese":  "警告信 / 停止侵害通知函",
+        "note":  "",
+        "example":  "Our lawyer sent a cease and desist letter to the infringing company. (我們的律師向侵權公司發送了停止侵害通知函。)"
+    },
+    {
+        "id":  72,
+        "english":  "certification mark",
+        "chinese":  "證明標章",
+        "note":  "",
+        "example":  "The product bears a certification mark indicating it meets safety standards. (該產品帶有證明標章，表示其符合安全標準。)"
+    },
+    {
+        "id":  73,
+        "english":  "channels of trade",
+        "chinese":  "交易管道 / 行銷管道",
+        "note":  "",
+        "example":  "The two products are sold in completely different channels of trade. (這兩項產品在完全不同的交易管道中銷售。)"
+    },
+    {
+        "id":  74,
+        "english":  "circuit layout rights",
+        "chinese":  "電路布局權",
+        "note":  "",
+        "example":  "The semiconductor company strictly enforces its circuit layout rights. (這家半導體公司嚴格執行其電路布局權。)"
+    },
+    {
+        "id":  75,
+        "english":  "cited registration",
+        "chinese":  "引證註冊商標",
+        "note":  "",
+        "example":  "The examiner refused our application based on a prior cited registration. (審查委員基於先前的引證註冊商標核駁了我們的申請。)"
+    },
+    {
+        "id":  76,
+        "english":  "claim priority",
+        "chinese":  "主張優先權",
+        "note":  "",
+        "example":  "You must file within six months to claim priority based on your home application. (您必須在六個月內提出申請，才能基於母國申請案主張優先權。)"
+    },
+    {
+        "id":  77,
+        "english":  "claw-back",
+        "chinese":  "追回 / 收回 (條款)",
+        "note":  "",
+        "example":  "The contract includes a claw-back provision for unearned bonuses. (該合約包含一項針對未獲取獎金的追回條款。)"
+    },
+    {
+        "id":  78,
+        "english":  "Code of Federal Regulations (C. F. R.)",
+        "chinese":  "(美國)聯邦法規法典",
+        "note":  "",
+        "example":  "The procedures are outlined in Title 37 of the Code of Federal Regulations (C.F.R.). (相關程序列於美國聯邦法規法典第37篇中。)"
+    },
+    {
+        "id":  79,
+        "english":  "co-existence agreement",
+        "chinese":  "並存協議",
+        "note":  "",
+        "example":  "The parties signed a co-existence agreement to avoid future trademark disputes. (雙方簽署了並存協議以避免未來的商標爭議。)"
+    },
+    {
+        "id":  80,
+        "english":  "coined mark",
+        "chinese":  "創設性商標 / 創造性商標",
+        "note":  "",
+        "example":  "Kodak is a classic example of a coined mark with no dictionary meaning. (「柯達」是一個沒有字典含義的創設性商標的經典例子。)"
+    },
+    {
+        "id":  81,
+        "english":  "collective mark",
+        "chinese":  "團體標章",
+        "note":  "",
+        "example":  "Only members of the association can use this collective mark. (只有協會成員才能使用這個團體標章。)"
+    },
+    {
+        "id":  82,
+        "english":  "collective membership mark",
+        "chinese":  "團體會員標章",
+        "note":  "",
+        "example":  "The pin displays a collective membership mark to identify club members. (這枚徽章展示了團體會員標章以識別俱樂部成員。)"
+    },
+    {
+        "id":  83,
+        "english":  "collective trademark",
+        "chinese":  "團體商標",
+        "note":  "",
+        "example":  "The cooperative registered a collective trademark for its agricultural products. (該合作社為其農產品註冊了團體商標。)"
+    },
+    {
+        "id":  84,
+        "english":  "commencement date",
+        "chinese":  "生效日 / 開始日",
+        "note":  "",
+        "example":  "The commencement date of the license agreement is January 1st. (授權協議的生效日為一月一日。)"
+    },
+    {
+        "id":  85,
+        "english":  "commerce clause",
+        "chinese":  "商業條款",
+        "note":  "",
+        "example":  "The regulation is justified under the commerce clause of the Constitution. (該法規在憲法的商業條款下具備正當性。)"
+    },
+    {
+        "id":  86,
+        "english":  "commercial impression",
+        "chinese":  "商業印象",
+        "note":  "",
+        "example":  "The two logos create a distinctly different commercial impression. (這兩個標誌創造了截然不同的商業印象。)"
+    },
+    {
+        "id":  87,
+        "english":  "common commercial name",
+        "chinese":  "通用商業名稱",
+        "note":  "",
+        "example":  "You cannot register a common commercial name as a trademark. (您不能將通用商業名稱註冊為商標。)"
+    },
+    {
+        "id":  88,
+        "english":  "Common Agricultural Policy (CAP)",
+        "chinese":  "(歐盟)共同農業政策",
+        "note":  "",
+        "example":  "The farming subsidies were adjusted according to the Common Agricultural Policy (CAP). (農業補貼已根據歐盟共同農業政策進行調整。)"
+    },
+    {
+        "id":  89,
+        "english":  "Common Law trade mark",
+        "chinese":  "普通法商標 / 習慣法商標",
+        "note":  "",
+        "example":  "They hold a Common Law trade mark through years of continuous use without registration. (他們透過多年未經註冊的持續使用而擁有普通法商標。)"
+    },
+    {
+        "id":  90,
+        "english":  "Community Designs Regulation (CDR)",
+        "chinese":  "(歐盟)共同體設計規則",
+        "note":  "",
+        "example":  "The new product\u0027s appearance is protected under the Community Designs Regulation (CDR). (新產品的外觀受歐盟共同體設計規則保護。)"
+    },
+    {
+        "id":  91,
+        "english":  "Community Trade Mark (CTM)",
+        "chinese":  "共同體商標",
+        "note":  "",
+        "example":  "A Community Trade Mark (CTM) provides protection across all member states of the European Union. (共同體商標在歐盟所有成員國提供保護。)"
+    },
+    {
+        "id":  92,
+        "english":  "Community Trade Mark Regulation (CTMR)",
+        "chinese":  "共同體商標規則",
+        "note":  "",
+        "example":  "The dispute was resolved in accordance with the Community Trade Mark Regulation (CTMR). (該爭議已根據共同體商標規則解決。)"
+    },
+    {
+        "id":  93,
+        "english":  "comparative advertising",
+        "chinese":  "比較性廣告",
+        "note":  "",
+        "example":  "Comparative advertising is legal as long as it is not misleading. (比較性廣告只要不具誤導性就是合法的。)"
+    },
+    {
+        "id":  94,
+        "english":  "competent authority",
+        "chinese":  "主管機關",
+        "note":  "",
+        "example":  "The application must be submitted to the competent authority for review. (申請案必須提交給主管機關進行審查。)"
+    },
+    {
+        "id":  95,
+        "english":  "composite mark",
+        "chinese":  "組合商標 / 聯合式商標",
+        "note":  "",
+        "example":  "The logo and words together form a composite mark. (標誌和文字共同組成了一個組合商標。)"
+    },
+    {
+        "id":  96,
+        "english":  "compulsory licensing",
+        "chinese":  "強制授權",
+        "note":  "",
+        "example":  "The government issued a compulsory licensing order for the life-saving drug. (政府對該救命藥物發布了強制授權命令。)"
+    },
+    {
+        "id":  97,
+        "english":  "concurrent use",
+        "chinese":  "併存使用 / 同時使用",
+        "note":  "",
+        "example":  "The two companies agreed to a concurrent use of the trademark in different regions. (兩家公司同意在不同地區併存使用該商標。)"
+    },
+    {
+        "id":  98,
+        "english":  "conflicting marks",
+        "chinese":  "衝突商標",
+        "note":  "",
+        "example":  "The examiner found conflicting marks in the trademark register. (審查委員在商標註冊簿中發現了衝突商標。)"
+    },
+    {
+        "id":  99,
+        "english":  "consent letter",
+        "chinese":  "同意書",
+        "note":  "",
+        "example":  "You need a consent letter from the prior trademark owner to register this mark. (您需要先前商標所有權人的同意書才能註冊此商標。)"
+    },
+    {
+        "id":  100,
+        "english":  "constructive use date",
+        "chinese":  "擬制使用日",
+        "note":  "",
+        "example":  "Filing an application establishes a constructive use date for the trademark. (提交申請案即確立了該商標的擬制使用日。)"
+    },
+    {
+        "id":  101,
+        "english":  "Convention country",
+        "chinese":  "公約國家",
+        "note":  "",
+        "example":  "Taiwan claims priority based on its application in a Convention country. (台灣基於其在公約國家的申請案主張優先權。)"
+    },
+    {
+        "id":  102,
+        "english":  "Convention on Biological Diversity (CBD)",
+        "chinese":  "生物多樣性公約",
+        "note":  "",
+        "example":  "The treaty addresses issues related to the Convention on Biological Diversity (CBD). (該條約涉及與生物多樣性公約相關的議題。)"
+    },
+    {
+        "id":  103,
+        "english":  "counterfeiting goods",
+        "chinese":  "仿冒品",
+        "note":  "",
+        "example":  "The customs officers seized a large shipment of counterfeiting goods. (海關官員查扣了一大批仿冒品。)"
+    },
+    {
+        "id":  104,
+        "english":  "country code top level code (CCTLD)",
+        "chinese":  "國家代碼頂級網域",
+        "note":  "",
+        "example":  "The website uses the \".tw\" country code top level domain. (該網站使用「.tw」國家代碼頂級網域。)"
+    },
+    {
+        "id":  105,
+        "english":  "country of origin",
+        "chinese":  "原產國",
+        "note":  "",
+        "example":  "The label must clearly state the country of origin. (標籤必須清楚標示原產國。)"
+    },
+    {
+        "id":  106,
+        "english":  "cross-search",
+        "chinese":  "交叉檢索",
+        "note":  "",
+        "example":  "The examiner performed a cross-search in related classes of goods. (審查委員在相關商品類別中執行了交叉檢索。)"
+    },
+    {
+        "id":  107,
+        "english":  "cybersquatting",
+        "chinese":  "網域名稱搶註 / 網路蟑螂",
+        "note":  "",
+        "example":  "The company filed a lawsuit against the individual for cybersquatting. (該公司對該名網域名稱搶註者提起訴訟。)"
+    },
+    {
+        "id":  108,
+        "english":  "De Facto Function",
+        "chinese":  "事實上功能性",
+        "note":  "",
+        "example":  "While the shape has a De Facto Function, it is not essential to the product\u0027s use. (雖然該形狀具有事實上功能性，但對產品的使用並非不可或缺。)"
+    },
+    {
+        "id":  109,
+        "english":  "De Jure Function",
+        "chinese":  "法律上功能性",
+        "note":  "",
+        "example":  "The patent application was denied because the design serves a De Jure Function. (該專利申請被拒絕，因為該設計具備法律上功能性。)"
+    },
+    {
+        "id":  110,
+        "english":  "decisional law",
+        "chinese":  "判例法",
+        "note":  "",
+        "example":  "The judge relied on decisional law to interpret the ambiguous statute. (法官依賴判例法來解釋模糊的法規。)"
+    },
+    {
+        "id":  111,
+        "english":  "declaration of affidavit",
+        "chinese":  "宣誓聲明",
+        "note":  "",
+        "example":  "The witness submitted a declaration of affidavit to support the applicant\u0027s claims. (證人提交了宣誓聲明以支持申請人的主張。)"
+    },
+    {
+        "id":  112,
+        "english":  "declaratory judgement action",
+        "chinese":  "確認之訴",
+        "note":  "",
+        "example":  "The company initiated a declaratory judgement action to confirm non-infringement. (該公司提起了確認之訴以確認未侵權。)"
+    },
+    {
+        "id":  113,
+        "english":  "defensive mark",
+        "chinese":  "防護商標",
+        "note":  "",
+        "example":  "They registered a defensive mark to prevent others from using similar names on unrelated products. (他們註冊了防護商標，以防止他人在不相關的產品上使用相似名稱。)"
+    },
+    {
+        "id":  114,
+        "english":  "descriptive mark",
+        "chinese":  "描述性商標",
+        "note":  "",
+        "example":  "A purely descriptive mark is generally not registrable without secondary meaning. (純粹的描述性商標通常在未取得第二意義的情況下無法註冊。)"
+    },
+    {
+        "id":  115,
+        "english":  "descriptive terms",
+        "chinese":  "描述性名詞",
+        "note":  "",
+        "example":  "The trademark consists entirely of descriptive terms for the goods. (該商標完全由商品的描述性名詞組成。)"
+    },
+    {
+        "id":  116,
+        "english":  "design code",
+        "chinese":  "圖形碼 / 設計代碼",
+        "note":  "",
+        "example":  "The trademark office assigns a specific design code to each figurative element. (商標局為每個圖形元素分配特定的設計代碼。)"
+    },
+    {
+        "id":  117,
+        "english":  "design patent",
+        "chinese":  "設計專利",
+        "note":  "",
+        "example":  "The unique shape of the smartphone is protected by a design patent. (智慧型手機的獨特形狀受到設計專利保護。)"
+    },
+    {
+        "id":  118,
+        "english":  "disclaimer",
+        "chinese":  "聲明不專用",
+        "note":  "",
+        "example":  "The applicant had to enter a disclaimer for the generic word in their trademark. (申請人必須為其商標中的通用詞彙聲明不專用。)"
+    },
+    {
+        "id":  119,
+        "english":  "dispute settlement",
+        "chinese":  "爭端解決",
+        "note":  "",
+        "example":  "The WTO provides a mechanism for dispute settlement between member countries. (世界貿易組織為成員國之間提供了爭端解決機制。)"
+    },
+    {
+        "id":  120,
+        "english":  "distinctiveness",
+        "chinese":  "識別性",
+        "note":  "",
+        "example":  "The trademark lacks inherent distinctiveness and cannot be registered[cite: 10]. (該商標缺乏先天識別性，無法註冊。)"
+    },
+    {
+        "id":  121,
+        "english":  "divisional application",
+        "chinese":  "分割申請",
+        "note":  "",
+        "example":  "The applicant filed a divisional application to separate the distinct inventions[cite: 10]. (申請人提交了分割申請，以將不同的發明分開。)"
+    },
+    {
+        "id":  122,
+        "english":  "Doctrine of Exhaustion",
+        "chinese":  "權利耗盡原則",
+        "note":  "",
+        "example":  "Under the Doctrine of Exhaustion, the patent owner\u0027s rights end after the first authorized sale[cite: 10]. (根據權利耗盡原則，專利權人的權利在首次合法銷售後即告終止。)"
+    },
+    {
+        "id":  123,
+        "english":  "Doha Ministerial Declaration",
+        "chinese":  "杜哈部長宣言",
+        "note":  "",
+        "example":  "The Doha Ministerial Declaration addressed the relationship between IP rights and public health[cite: 10]. (杜哈部長宣言探討了智慧財產權與公共衛生的關係。)"
+    },
+    {
+        "id":  124,
+        "english":  "domain name",
+        "chinese":  "網域名稱",
+        "note":  "",
+        "example":  "The company registered its domain name to establish its online presence[cite: 10]. (該公司註冊了網域名稱以建立其線上能見度。)"
+    },
+    {
+        "id":  125,
+        "english":  "domicile",
+        "chinese":  "住所",
+        "note":  "",
+        "example":  "The applicant\u0027s domicile is listed as Taipei, Taiwan[cite: 10]. (申請人的住所列為台灣台北。)"
+    },
+    {
+        "id":  126,
+        "english":  "electronic commerce (e-commerce)",
+        "chinese":  "電子商務",
+        "note":  "",
+        "example":  "The rise of electronic commerce has created new challenges for trademark protection[cite: 10]. (電子商務的興起為商標保護帶來了新挑戰。)"
+    },
+    {
+        "id":  127,
+        "english":  "enforcement of IP rights",
+        "chinese":  "智慧財產權之執行",
+        "note":  "",
+        "example":  "The government is committed to the strict enforcement of IP rights[cite: 10]. (政府致力於嚴格執行智慧財產權。)"
+    },
+    {
+        "id":  128,
+        "english":  "European Court of Justice (ECJ)",
+        "chinese":  "歐洲法院",
+        "note":  "",
+        "example":  "The European Court of Justice (ECJ) issued a landmark ruling on trademark infringement[cite: 10]. (歐洲法院就商標侵權案發布了具里程碑意義的判決。)"
+    },
+    {
+        "id":  129,
+        "english":  "European Patent Convention (EPC)",
+        "chinese":  "歐洲專利公約",
+        "note":  "",
+        "example":  "The patent was granted under the provisions of the European Patent Convention (EPC)[cite: 10]. (該專利是根據歐洲專利公約的規定所授予。)"
+    },
+    {
+        "id":  130,
+        "english":  "European Patent Office (EPO)",
+        "chinese":  "歐洲專利局",
+        "note":  "",
+        "example":  "You can search for patents on the European Patent Office (EPO) website[cite: 10]. (您可以在歐洲專利局的網站上搜尋專利。)"
+    },
+    {
+        "id":  131,
+        "english":  "European Union",
+        "chinese":  "歐洲聯盟 / 歐盟",
+        "note":  "",
+        "example":  "The trademark is protected in all member states of the European Union[cite: 10]. (該商標在歐洲聯盟的所有成員國均受保護。)"
+    },
+    {
+        "id":  132,
+        "english":  "ex officio action",
+        "chinese":  "依職權行動",
+        "note":  "",
+        "example":  "The customs officials seized the counterfeit goods through an ex officio action[cite: 10]. (海關官員依職權行動查扣了仿冒品。)"
+    },
+    {
+        "id":  133,
+        "english":  "ex parte proceeding",
+        "chinese":  "單方程序",
+        "note":  "",
+        "example":  "An ex parte proceeding only involves the applicant and the patent office[cite: 10]. (單方程序僅涉及申請人與專利局。)"
+    },
+    {
+        "id":  134,
+        "english":  "exclusive license",
+        "chinese":  "專屬授權",
+        "note":  "",
+        "example":  "The inventor granted an exclusive license to the manufacturing company[cite: 10]. (發明人將專屬授權授予了該製造公司。)"
+    },
+    {
+        "id":  135,
+        "english":  "exclusive right",
+        "chinese":  "專屬權 / 排他權",
+        "note":  "",
+        "example":  "The trademark owner has the exclusive right to use the mark in commerce[cite: 10]. (商標所有權人擁有在商業上使用該商標的專屬權。)"
+    },
+    {
+        "id":  136,
+        "english":  "expiration date",
+        "chinese":  "屆滿日 / 到期日",
+        "note":  "",
+        "example":  "The patent will reach its expiration date in 2030[cite: 10]. (該專利將於 2030 年到達屆滿日。)"
+    },
+    {
+        "id":  137,
+        "english":  "eXtensible Markup Langue (XML)",
+        "chinese":  "可延伸標記式語言",
+        "note":  "",
+        "example":  "The data is formatted using eXtensible Markup Language (XML)[cite: 10]. (該資料使用可延伸標記式語言進行格式化。)"
+    },
+    {
+        "id":  138,
+        "english":  "extensions of time",
+        "chinese":  "展延期間",
+        "note":  "",
+        "example":  "The applicant requested several extensions of time to file a response[cite: 10]. (申請人申請了多次展延期間以提交答辯書。)"
+    },
+    {
+        "id":  139,
+        "english":  "fair use",
+        "chinese":  "合理使用",
+        "note":  "",
+        "example":  "Using a small portion of a copyrighted work for a review may be considered fair use[cite: 10]. (在評論中使用一小部分受版權保護的作品可能被視為合理使用。)"
+    },
+    {
+        "id":  140,
+        "english":  "false advertising",
+        "chinese":  "不實廣告",
+        "note":  "",
+        "example":  "The competitor was sued for false advertising regarding their product\u0027s benefits[cite: 10]. (競爭對手因對其產品效益進行不實廣告而遭起訴。)"
+    },
+    {
+        "id":  141,
+        "english":  "family of mark",
+        "chinese":  "家族商標 / 系列商標",
+        "note":  "",
+        "example":  "McDonald\u0027s \"Mc\" prefix is an example of a family of mark[cite: 10]. (麥當勞的「Mc」字首是家族商標的例子。)"
+    },
+    {
+        "id":  142,
+        "english":  "famous mark",
+        "chinese":  "著名商標",
+        "note":  "",
+        "example":  "A famous mark receives broader protection against dilution[cite: 10]. (著名商標可獲得更廣泛的保護以防止淡化。)"
+    },
+    {
+        "id":  143,
+        "english":  "fanciful mark",
+        "chinese":  "幻想性商標",
+        "note":  "",
+        "example":  "Exxon is a fanciful mark created specifically to function as a trademark[cite: 10]. (「Exxon」是一個為了發揮商標功能而特別創造的幻想性商標。)"
+    },
+    {
+        "id":  144,
+        "english":  "Federal Trademark Dilution Act",
+        "chinese":  "(美國)聯邦商標淡化法",
+        "note":  "",
+        "example":  "The lawsuit was filed under the Federal Trademark Dilution Act to protect the brand\u0027s reputation[cite: 10]. (該訴訟是依據美國聯邦商標淡化法提起，以保護品牌聲譽。)"
+    },
+    {
+        "id":  145,
+        "english":  "filing date",
+        "chinese":  "申請日",
+        "note":  "",
+        "example":  "The filing date of the application determines its priority[cite: 10]. (申請案的申請日決定了其優先權。)"
+    },
+    {
+        "id":  146,
+        "english":  "filing fee",
+        "chinese":  "申請費",
+        "note":  "",
+        "example":  "You must pay the official filing fee when submitting the trademark application[cite: 10]. (提交商標申請案時必須支付官方申請費。)"
+    },
+    {
+        "id":  147,
+        "english":  "first use date",
+        "chinese":  "首次使用日",
+        "note":  "",
+        "example":  "The applicant must specify the first use date of the mark anywhere in the world[cite: 10]. (申請人必須指明該商標在世界任何地方的首次使用日。)"
+    },
+    {
+        "id":  148,
+        "english":  "Free Trade Agreement (FTA)",
+        "chinese":  "自由貿易協定",
+        "note":  "",
+        "example":  "The Free Trade Agreement (FTA) includes specific provisions for intellectual property protection[cite: 10]. (自由貿易協定包含了保護智慧財產權的具體規定。)"
+    },
+    {
+        "id":  149,
+        "english":  "free-rider",
+        "chinese":  "搭便車(者)",
+        "note":  "",
+        "example":  "The law aims to prevent a free-rider from profiting off someone else\u0027s established reputation[cite: 10]. (該法律旨在防止搭便車者利用他人建立的聲譽獲利。)"
+    },
+    {
+        "id":  150,
+        "english":  "Frequently asked questions (FAQ)",
+        "chinese":  "常見問題",
+        "note":  "",
+        "example":  "Please check the Frequently asked questions (FAQ) section on our website for more details. (請查看我們網站上的常見問題部分以獲取更多詳細資訊。)"
+    },
+    {
+        "id":  151,
+        "english":  "G7",
+        "chinese":  "七大工業國組織",
+        "note":  "",
+        "example":  "The G7 leaders met to discuss global economic and intellectual property policies. (七大工業國組織領導人會面討論全球經濟與智慧財產權政策。)"
+    },
+    {
+        "id":  152,
+        "english":  "General Agreement on Tariffs and Trade (GATT)",
+        "chinese":  "關稅暨貿易總協定",
+        "note":  "",
+        "example":  "The General Agreement on Tariffs and Trade (GATT) was established to promote international trade. (關稅暨貿易總協定的建立是為了促進國際貿易。)"
+    },
+    {
+        "id":  153,
+        "english":  "General Agreement on Trade in Services (GATS)",
+        "chinese":  "服務貿易總協定",
+        "note":  "",
+        "example":  "The regulation complies with the rules of the General Agreement on Trade in Services (GATS). (該法規符合服務貿易總協定的規範。)"
+    },
+    {
+        "id":  154,
+        "english":  "general public",
+        "chinese":  "一般大眾 / 社會大眾",
+        "note":  "",
+        "example":  "The trademark is now well-known to the general public. (該商標現在已廣為一般大眾所熟知。)"
+    },
+    {
+        "id":  155,
+        "english":  "generic term",
+        "chinese":  "通用名稱 / 屬名",
+        "note":  "",
+        "example":  "Aspirin eventually became a generic term in several countries. (「阿斯匹靈」最終在幾個國家成為了通用名稱。)"
+    },
+    {
+        "id":  156,
+        "english":  "geographical indication (GI)",
+        "chinese":  "地理標示",
+        "note":  "",
+        "example":  "Roquefort cheese is protected under the law as a geographical indication (GI). (羅克福乳酪作為地理標示依法受到保護。)"
+    },
+    {
+        "id":  157,
+        "english":  "good faith",
+        "chinese":  "善意",
+        "note":  "",
+        "example":  "Both parties entered into the negotiation in good faith. (雙方皆基於善意參與談判。)"
+    },
+    {
+        "id":  158,
+        "english":  "government agency",
+        "chinese":  "政府機關",
+        "note":  "",
+        "example":  "You need to submit these forms to the relevant government agency. (您需要將這些表格提交給相關政府機關。)"
+    },
+    {
+        "id":  159,
+        "english":  "government fee",
+        "chinese":  "規費",
+        "note":  "",
+        "example":  "Please note that the government fee for filing an application is non-refundable. (請注意，提交申請案的規費是不予退還的。)"
+    },
+    {
+        "id":  160,
+        "english":  "graphical representation",
+        "chinese":  "圖文表示 / 圖形表示",
+        "note":  "",
+        "example":  "Historically, a trademark application required a clear graphical representation of the mark. (在過去，商標申請案需要有清晰的商標圖文表示。)"
+    },
+    {
+        "id":  161,
+        "english":  "gravamen",
+        "chinese":  "訴狀要旨 / 爭點核心",
+        "note":  "",
+        "example":  "The gravamen of the plaintiff\u0027s complaint is willful patent infringement. (原告的訴狀要旨是故意的專利侵權行為。)"
+    },
+    {
+        "id":  162,
+        "english":  "gray market",
+        "chinese":  "灰市 (真品平行輸入)",
+        "note":  "",
+        "example":  "Gray market goods are genuine products imported without the brand owner\u0027s permission. (灰市商品是未經品牌所有權人許可而平行輸入的真品。)"
+    },
+    {
+        "id":  163,
+        "english":  "hologram",
+        "chinese":  "全像圖",
+        "note":  "",
+        "example":  "A security hologram is attached to the packaging to prevent counterfeiting. (包裝上貼有安全全像圖以防止仿冒。)"
+    },
+    {
+        "id":  164,
+        "english":  "house mark",
+        "chinese":  "企業商標 / 主要商標",
+        "note":  "",
+        "example":  "The company prints its house mark prominently on all its sub-brand products. (該公司將其企業商標醒目地印在所有子品牌產品上。)"
+    },
+    {
+        "id":  165,
+        "english":  "identical goods",
+        "chinese":  "同一商品",
+        "note":  "",
+        "example":  "The conflicting marks are used on identical goods, increasing the likelihood of confusion. (衝突的商標被使用於同一商品上，增加了混淆誤認之虞。)"
+    },
+    {
+        "id":  166,
+        "english":  "in commerce",
+        "chinese":  "於商業上",
+        "note":  "",
+        "example":  "The applicant must provide evidence that the mark is currently used in commerce. (申請人必須提供證據證明該商標目前已於商業上使用。)"
+    },
+    {
+        "id":  167,
+        "english":  "in transit goods",
+        "chinese":  "過境貨物 / 轉運商品",
+        "note":  "",
+        "example":  "Customs officials inspected the in transit goods for potential IP violations. (海關官員檢查了過境貨物是否有潛在的侵犯智財權行為。)"
+    },
+    {
+        "id":  168,
+        "english":  "indication of source",
+        "chinese":  "產地標示",
+        "note":  "",
+        "example":  "Made in Taiwan serves as a clear indication of source for consumers. (「台灣製造」對消費者而言是明確的產地標示。)"
+    },
+    {
+        "id":  169,
+        "english":  "Information technology (IT)",
+        "chinese":  "資訊科技",
+        "note":  "",
+        "example":  "Advances in Information technology (IT) have created new challenges for copyright law. (資訊科技的進步為著作權法帶來了新挑戰。)"
+    },
+    {
+        "id":  170,
+        "english":  "inherent distinctiveness",
+        "chinese":  "先天識別性",
+        "note":  "",
+        "example":  "A completely invented word usually possesses strong inherent distinctiveness. (完全虛構的詞彙通常具備強烈的先天識別性。)"
+    },
+    {
+        "id":  171,
+        "english":  "innovation patent",
+        "chinese":  "創新專利",
+        "note":  "",
+        "example":  "An innovation patent provides a faster way to protect functional inventions with a shorter life. (創新專利提供了一種更快速的方式來保護期限較短的功能性發明。)"
+    },
+    {
+        "id":  172,
+        "english":  "Intangible assets",
+        "chinese":  "無形資產",
+        "note":  "",
+        "example":  "Trademarks and patents are highly valuable intangible assets for modern businesses. (商標與專利對現代企業而言是極具價值的無形資產。)"
+    },
+    {
+        "id":  173,
+        "english":  "Intellectual Property Australia (IP Australia)",
+        "chinese":  "澳洲智慧財產權局",
+        "note":  "",
+        "example":  "We filed our trademark application with Intellectual Property Australia (IP Australia) last week. (我們上週向澳洲智慧財產權局提交了商標申請案。)"
+    },
+    {
+        "id":  174,
+        "english":  "Intellectual property right",
+        "chinese":  "智慧財產權",
+        "note":  "",
+        "example":  "An intellectual property right gives the creator exclusive control over their creation. (智慧財產權賦予創作者對其創作的專屬控制權。)"
+    },
+    {
+        "id":  175,
+        "english":  "Intellectual Property Rights Experts Group (IPEG)",
+        "chinese":  "智慧財產權專家小組",
+        "note":  "",
+        "example":  "The APEC Intellectual Property Rights Experts Group (IPEG) held a productive meeting yesterday. (亞太經合會智慧財產權專家小組昨天舉行了一次富有成效的會議。)"
+    },
+    {
+        "id":  176,
+        "english":  "intend to use (ITU)",
+        "chinese":  "意圖使用",
+        "note":  "",
+        "example":  "You can file an intend to use (ITU) application before your product hits the market. (您可以在產品上市前提交意圖使用申請案。)"
+    },
+    {
+        "id":  177,
+        "english":  "inter partes proceedings",
+        "chinese":  "雙方當事人程序 / 兩造對審程序",
+        "note":  "",
+        "example":  "Trademark oppositions and cancellations are typical examples of inter partes proceedings. (商標異議與廢止是雙方當事人程序的典型例子。)"
+    },
+    {
+        "id":  178,
+        "english":  "Internation Bureau (IB)",
+        "chinese":  "國際局",
+        "note":  "",
+        "example":  "The Internation Bureau (IB) of WIPO manages the international registration of marks. (世界智慧財產權組織的國際局負責管理商標的國際註冊。)"
+    },
+    {
+        "id":  179,
+        "english":  "International Association for the Protection of Intellectual Property (AIPPI)",
+        "chinese":  "國際保護智慧財產權協會",
+        "note":  "",
+        "example":  "She will present her paper at the conference held by the International Association for the Protection of Intellect. (她將在國際保護智慧財產權協會舉辦的會議上發表論文。)"
+    },
+    {
+        "id":  180,
+        "english":  "international classification (IC)",
+        "chinese":  "國際分類",
+        "note":  "",
+        "example":  "The goods are categorized according to the international classification (IC) of goods and services. (這些商品是根據商品與服務的國際分類來歸類的。)"
+    },
+    {
+        "id":  181,
+        "english":  "international registration (IR)",
+        "chinese":  "國際註冊",
+        "note":  "",
+        "example":  "They filed an application for international registration (IR) through the Madrid System. (他們透過馬德里體系提交了國際註冊申請。)"
+    },
+    {
+        "id":  182,
+        "english":  "International Trademark Association (INTA)",
+        "chinese":  "國際商標協會",
+        "note":  "",
+        "example":  "Our firm attends the International Trademark Association (INTA) annual meeting every year. (我們事務所每年都會參加國際商標協會年會。)"
+    },
+    {
+        "id":  183,
+        "english":  "Internet Corporation for Assigned Names and Numbers (ICANN)",
+        "chinese":  "網際網路名稱與號碼指配機構",
+        "note":  "",
+        "example":  "The dispute over the domain name will be handled according to the rules of the Internet Corporation for Assigned Names and Numbers. (這起網域名稱爭議將根據網際網路名稱與號碼指配機構的規定處理。)"
+    },
+    {
+        "id":  184,
+        "english":  "invalidity",
+        "chinese":  "無效",
+        "note":  "",
+        "example":  "The competitor filed a claim for the invalidity of our registered trademark. (競爭對手對我們已註冊的商標提出了無效宣告請求。)"
+    },
+    {
+        "id":  185,
+        "english":  "Japan Patent Attoney Association (JPAA)",
+        "chinese":  "日本辨理士會 / 日本專利代理人協會",
+        "note":  "",
+        "example":  "He is a registered member of the Japan Patent Attorneys Association (JPAA). (他是日本辨理士會/日本專利代理人協會的註冊會員。)"
+    },
+    {
+        "id":  186,
+        "english":  "Japan Patent Office (JPO)",
+        "chinese":  "日本特許廳",
+        "note":  "",
+        "example":  "The trademark was approved by the Japan Patent Office (JPO) last month. (該商標上個月獲得日本特許廳核准。)"
+    },
+    {
+        "id":  187,
+        "english":  "joint applicant",
+        "chinese":  "共同申請人",
+        "note":  "",
+        "example":  "Both inventors are listed as joint applicants on the patent application. (兩位發明人都被列為該專利申請案的共同申請人。)"
+    },
+    {
+        "id":  188,
+        "english":  "joint ownership",
+        "chinese":  "共有 / 共同所有權",
+        "note":  "",
+        "example":  "The contract clearly defines the terms of their joint ownership of the copyright. (合約明確規定了他們對該著作權共有所有權的條款。)"
+    },
+    {
+        "id":  189,
+        "english":  "Joint photographic expert group (JPEG)",
+        "chinese":  "聯合圖像專家小組",
+        "note":  "",
+        "example":  "The trademark image must be uploaded in a format approved by the Joint photographic expert group (JPEG). (商標圖片必須以聯合圖像專家小組核准的格式上傳。)"
+    },
+    {
+        "id":  190,
+        "english":  "Joint Recommendation",
+        "chinese":  "聯合建議",
+        "note":  "",
+        "example":  "WIPO issued a Joint Recommendation concerning provisions on the protection of well-known marks. (世界智慧財產權組織發布了一項關於保護著名商標規定的聯合建議。)"
+    },
+    {
+        "id":  191,
+        "english":  "judicial authority",
+        "chinese":  "司法機關",
+        "note":  "",
+        "example":  "The final decision on the infringement case rests with the judicial authority. (這起侵權案件的最終裁定權在於司法機關。)"
+    },
+    {
+        "id":  192,
+        "english":  "junior user",
+        "chinese":  "後使用人",
+        "note":  "",
+        "example":  "The junior user was forced to rebrand after losing the trademark dispute. (後使用人在輸掉商標爭議後被迫重新塑造品牌。)"
+    },
+    {
+        "id":  193,
+        "english":  "knock-off",
+        "chinese":  "仿冒品 / 贗品",
+        "note":  "",
+        "example":  "Selling cheap knock-off designer bags is illegal. (販售廉價的名牌包仿冒品是違法的。)"
+    },
+    {
+        "id":  194,
+        "english":  "law firm",
+        "chinese":  "律師事務所 / 專利商標事務所",
+        "note":  "",
+        "example":  "She hired a prestigious law firm to handle the intellectual property litigation. (她聘請了一家知名的律師事務所來處理這起智慧財產權訴訟。)"
+    },
+    {
+        "id":  195,
+        "english":  "Least-developed countries (LDC)",
+        "chinese":  "低度開發國家",
+        "note":  "",
+        "example":  "TRIPS provides extended transition periods for Least-developed countries (LDC). (與貿易有關之智慧財產權協定為低度開發國家提供了延長的過渡期。)"
+    },
+    {
+        "id":  196,
+        "english":  "letter of consent",
+        "chinese":  "同意書",
+        "note":  "",
+        "example":  "The examiner will withdraw the refusal if you can provide a letter of consent from the prior owner. (如果您能提供先前所有權人的同意書，審查委員將會撤回核駁。)"
+    },
+    {
+        "id":  197,
+        "english":  "letter of protest",
+        "chinese":  "抗議信 / 異議信函",
+        "note":  "",
+        "example":  "A third party submitted a letter of protest against the pending trademark application. (第三方針對審查中的商標申請案提交了一封異議信函。)"
+    },
+    {
+        "id":  198,
+        "english":  "license",
+        "chinese":  "授權 / 許可",
+        "note":  "",
+        "example":  "You must obtain a license before using their patented technology. (在使用他們的專利技術之前，您必須取得授權。)"
+    },
+    {
+        "id":  199,
+        "english":  "license royalty",
+        "chinese":  "授權金 / 權利金",
+        "note":  "",
+        "example":  "The company pays a 5% license royalty on net sales. (該公司根據淨銷售額支付 5% 的授權金/權利金。)"
+    },
+    {
+        "id":  200,
+        "english":  "licensee",
+        "chinese":  "被授權人",
+        "note":  "",
+        "example":  "The licensee is responsible for marketing the product in Asia. (被授權人負責在亞洲行銷該產品。)"
+    },
+    {
+        "id":  201,
+        "english":  "likelihood of confusion",
+        "chinese":  "混淆誤認之虞",
+        "note":  "",
+        "example":  "The primary test for trademark infringement is whether there is a likelihood of confusion. (商標侵權的主要測試標準是是否存在混淆誤認之虞。)"
+    },
+    {
+        "id":  202,
+        "english":  "likelihood of dilution",
+        "chinese":  "淡化之虞",
+        "note":  "",
+        "example":  "Famous marks are protected against the likelihood of dilution even if there is no confusion. (即使沒有混淆，著名商標也受到保護以防止淡化之虞。)"
+    },
+    {
+        "id":  203,
+        "english":  "Locarno Agreement",
+        "chinese":  "羅加諾協定",
+        "note":  "",
+        "example":  "Industrial designs are classified under the system established by the Locarno Agreement. (工業設計是根據羅加諾協定建立的系統進行分類的。)"
+    },
+    {
+        "id":  204,
+        "english":  "Madrid Agreement",
+        "chinese":  "馬德里協定",
+        "note":  "",
+        "example":  "The Madrid Agreement facilitates the international registration of trademarks. (馬德里協定促進了商標的國際註冊。)"
+    },
+    {
+        "id":  205,
+        "english":  "Madrid Protocol",
+        "chinese":  "馬德里議定書",
+        "note":  "",
+        "example":  "The US joined the Madrid Protocol to simplify international trademark filings. (美國加入了馬德里議定書以簡化國際商標申請。)"
+    },
+    {
+        "id":  206,
+        "english":  "mandate",
+        "chinese":  "委任 / 授權",
+        "note":  "",
+        "example":  "The attorney acted within the scope of his mandate from the client. (律師在客戶的委任範圍內行事。)"
+    },
+    {
+        "id":  207,
+        "english":  "Memorandum of Understanding (MOU)",
+        "chinese":  "瞭解備忘錄",
+        "note":  "",
+        "example":  "The two patent offices signed a Memorandum of Understanding (MOU) to share search results. (兩國專利局簽署了瞭解備忘錄以共享檢索結果。)"
+    },
+    {
+        "id":  208,
+        "english":  "Most-Favoured-Nation Treatment",
+        "chinese":  "最惠國待遇",
+        "note":  "",
+        "example":  "Under the WTO rules, member states must grant each other Most-Favoured-Nation Treatment. (根據世界貿易組織規定，成員國必須給予彼此最惠國待遇。)"
+    },
+    {
+        "id":  209,
+        "english":  "Multiple-class application",
+        "chinese":  "一案多類申請 / 多類別申請",
+        "note":  "",
+        "example":  "Filing a multiple-class application can save time and administrative costs. (提交一案多類申請可以節省時間與行政成本。)"
+    },
+    {
+        "id":  210,
+        "english":  "naked assignment",
+        "chinese":  "裸讓與 (未連同營業信譽之讓與)",
+        "note":  "",
+        "example":  "A naked assignment of a trademark may lead to the loss of trademark rights. (商標的裸讓與可能導致商標權的喪失。)"
+    },
+    {
+        "id":  211,
+        "english":  "National Treatment",
+        "chinese":  "國民待遇",
+        "note":  "",
+        "example":  "The principle of National Treatment ensures foreign applicants are treated the same as domestic ones. (國民待遇原則確保外國申請人享有與國內申請人相同的待遇。)"
+    },
+    {
+        "id":  212,
+        "english":  "Nice Agreement",
+        "chinese":  "尼斯協定",
+        "note":  "",
+        "example":  "The Nice Agreement establishes a system for the classification of goods and services. (尼斯協定建立了一套商品與服務的分類系統。)"
+    },
+    {
+        "id":  213,
+        "english":  "Nice classification",
+        "chinese":  "尼斯分類",
+        "note":  "",
+        "example":  "The applicant must specify the goods according to the current Nice classification. (申請人必須根據現行的尼斯分類指明商品。)"
+    },
+    {
+        "id":  214,
+        "english":  "non-exclusive license",
+        "chinese":  "非專屬授權",
+        "note":  "",
+        "example":  "The software is available under a non-exclusive license to multiple users. (該軟體是以非專屬授權的方式提供給多個使用者。)"
+    },
+    {
+        "id":  215,
+        "english":  "Non-Government Organization (NGO)",
+        "chinese":  "非政府組織",
+        "note":  "",
+        "example":  "The Non-Government Organization (NGO) provided recommendations on IP policy reform. (該非政府組織針對智財政策改革提出了建議。)"
+    },
+    {
+        "id":  216,
+        "english":  "North America Free Trade Agreement (NAFTA)",
+        "chinese":  "北美自由貿易協定",
+        "note":  "",
+        "example":  "The North America Free Trade Agreement (NAFTA) has been replaced by the USMCA. (北美自由貿易協定已被美墨加協定取代。)"
+    },
+    {
+        "id":  217,
+        "english":  "Notice of Allowance (NOA)",
+        "chinese":  "核准通知",
+        "note":  "",
+        "example":  "We received a Notice of Allowance (NOA) from the trademark office today. (我們今天收到了商標局寄來的核准通知。)"
+    },
+    {
+        "id":  218,
+        "english":  "olfactory mark",
+        "chinese":  "氣味商標",
+        "note":  "",
+        "example":  "It is notoriously difficult to prove the distinctiveness of an olfactory mark. (要證明氣味商標的識別性是出了名的困難。)"
+    },
+    {
+        "id":  219,
+        "english":  "opposition period",
+        "chinese":  "異議期間",
+        "note":  "",
+        "example":  "The trademark will be registered if no one files a challenge during the opposition period. (若異議期間無人提出異議，該商標將被准予註冊。)"
+    },
+    {
+        "id":  220,
+        "english":  "opposition proceeding",
+        "chinese":  "異議程序",
+        "note":  "",
+        "example":  "The company initiated an opposition proceeding against the similar mark. (該公司針對相似商標發起了異議程序。)"
+    },
+    {
+        "id":  221,
+        "english":  "Organization for Economic Cooperation and Development (OECD)",
+        "chinese":  "經濟合作暨發展組織",
+        "note":  "",
+        "example":  "The Organization for Economic Cooperation and Development (OECD) publishes reports on global trade. (經濟合作暨發展組織發布關於全球貿易的報告。)"
+    },
+    {
+        "id":  222,
+        "english":  "parallel import",
+        "chinese":  "平行輸入",
+        "note":  "",
+        "example":  "The court ruled that the parallel import of genuine goods did not infringe the trademark. (法院裁定真品的平行輸入並未侵犯商標權。)"
+    },
+    {
+        "id":  223,
+        "english":  "Paris Convention",
+        "chinese":  "巴黎公約",
+        "note":  "",
+        "example":  "The Paris Convention allows applicants to claim priority based on a foreign filing. (巴黎公約允許申請人根據外國申請案主張優先權。)"
+    },
+    {
+        "id":  224,
+        "english":  "passing off",
+        "chinese":  "仿冒 / 攀附",
+        "note":  "",
+        "example":  "The plaintiff sued the competitor for passing off their goods as the plaintiff\u0027s own. (原告控告競爭對手攀附其商品名聲並進行仿冒。)"
+    },
+    {
+        "id":  225,
+        "english":  "Patent Law Treaty (PLT)",
+        "chinese":  "專利法條約",
+        "note":  "",
+        "example":  "The Patent Law Treaty (PLT) aims to harmonize formal procedures for patent applications. (專利法條約旨在調和專利申請的程序性規範。)"
+    },
+    {
+        "id":  226,
+        "english":  "Patent Cooperation Treaty (PCT)",
+        "chinese":  "專利合作條約",
+        "note":  "",
+        "example":  "Filing a Patent Cooperation Treaty (PCT) application provides a unified procedure for searching. (提交專利合作條約申請案提供了一套統一的檢索程序。)"
+    },
+    {
+        "id":  227,
+        "english":  "pending applications",
+        "chinese":  "審查中申請案 / 繫屬中案件",
+        "note":  "",
+        "example":  "There are several pending applications that might conflict with your mark. (有幾件審查中的申請案可能會與您的商標產生衝突。)"
+    },
+    {
+        "id":  228,
+        "english":  "phantom mark",
+        "chinese":  "幻影商標 / 虛線商標",
+        "note":  "",
+        "example":  "A phantom mark contains a placeholder for a variable element of the trademark. (幻影商標包含一個用於商標可變元素的預留位置。)"
+    },
+    {
+        "id":  229,
+        "english":  "plant breeder\u0027s right",
+        "chinese":  "植物育種者權利",
+        "note":  "",
+        "example":  "The researcher applied for a plant breeder\u0027s right for the new hybrid variety. (研究人員為新的雜交品種申請了植物育種者權利。)"
+    },
+    {
+        "id":  230,
+        "english":  "Polaroid factors",
+        "chinese":  "寶麗來因素 (美國實務判斷混淆誤認之因素)",
+        "note":  "",
+        "example":  "The judge applied the Polaroid factors to determine if there was a likelihood of confusion. (法官應用寶麗來因素來判斷是否存在混淆誤認之虞。)"
+    },
+    {
+        "id":  231,
+        "english":  "Portable document format (PDF)",
+        "chinese":  "可攜式文件格式",
+        "note":  "",
+        "example":  "Please submit your evidence in Portable document format (PDF). (請以可攜式文件格式提交您的證據。)"
+    },
+    {
+        "id":  232,
+        "english":  "Power of Attorney (POA)",
+        "chinese":  "委任狀",
+        "note":  "",
+        "example":  "The law firm needs a signed Power of Attorney (POA) to represent you. (律師事務所需要一份簽署好的委任狀才能代表您。)"
+    },
+    {
+        "id":  233,
+        "english":  "preliminary injunction",
+        "chinese":  "假處分 / 暫時性禁制令",
+        "note":  "",
+        "example":  "The court granted a preliminary injunction to stop the sale of the infringing products. (法院核發了假處分，以停止侵權產品的銷售。)"
+    },
+    {
+        "id":  234,
+        "english":  "prima facie",
+        "chinese":  "表面證據 / 初步推定",
+        "note":  "",
+        "example":  "The trademark registration certificate is prima facie evidence of ownership. (商標註冊證是所有權的表面證據。)"
+    },
+    {
+        "id":  235,
+        "english":  "principal register",
+        "chinese":  "主註冊簿",
+        "note":  "",
+        "example":  "A mark registered on the principal register receives the highest level of protection. (在主註冊簿註冊的商標可獲得最高級別的保護。)"
+    },
+    {
+        "id":  236,
+        "english":  "prior use",
+        "chinese":  "先使用",
+        "note":  "",
+        "example":  "Evidence of prior use can be a defense against an infringement claim. (先使用的證據可以作為對抗侵權主張的辯護理由。)"
+    },
+    {
+        "id":  237,
+        "english":  "priority claim",
+        "chinese":  "主張優先權",
+        "note":  "",
+        "example":  "The priority claim was rejected because it was filed after the deadline. (由於在截止日期後才提出，該優先權主張被核駁。)"
+    },
+    {
+        "id":  238,
+        "english":  "priority filing date",
+        "chinese":  "優先權日",
+        "note":  "",
+        "example":  "Your trademark rights date back to the priority filing date of your original application. (您的商標權利可追溯至原始申請案的優先權日。)"
+    },
+    {
+        "id":  239,
+        "english":  "protectable subject matter",
+        "chinese":  "受保護標的",
+        "note":  "",
+        "example":  "Software algorithms are considered protectable subject matter under patent law. (在專利法下，軟體演算法被視為受保護標的。)"
+    },
+    {
+        "id":  240,
+        "english":  "provisional procedures",
+        "chinese":  "保全程序 / 暫時性程序",
+        "note":  "",
+        "example":  "The court may order provisional procedures to preserve evidence before the trial begins. (法院得在審判開始前裁定採取保全程序以保存證據。)"
+    },
+    {
+        "id":  241,
+        "english":  "quasi-property rights",
+        "chinese":  "準財產權",
+        "note":  "",
+        "example":  "Trademarks are often considered quasi-property rights due to their commercial value. (商標因其商業價值，通常被視為一種準財產權。)"
+    },
+    {
+        "id":  242,
+        "english":  "quia timet injunction",
+        "chinese":  "預防性禁制令",
+        "note":  "",
+        "example":  "The plaintiff sought a quia timet injunction to prevent a threatened infringement. (原告尋求預防性禁制令，以防止即將發生的侵權行為。)"
+    },
+    {
+        "id":  243,
+        "english":  "reciprocal treatment",
+        "chinese":  "互惠待遇",
+        "note":  "",
+        "example":  "Foreigners can enjoy copyright protection in this country based on reciprocal treatment. (外國人可基於互惠待遇在該國享有著作權保護。)"
+    },
+    {
+        "id":  244,
+        "english":  "recordation of the assignment",
+        "chinese":  "讓與登記",
+        "note":  "",
+        "example":  "The recordation of the assignment is necessary to update the trademark owner\u0027s information. (讓與登記對於更新商標所有權人資訊是必要的。)"
+    },
+    {
+        "id":  245,
+        "english":  "refund",
+        "chinese":  "退費",
+        "note":  "",
+        "example":  "You may apply for a refund if the government fee was paid in excess. (若溢繳規費，您可以申請退費。)"
+    },
+    {
+        "id":  246,
+        "english":  "refusal",
+        "chinese":  "核駁",
+        "note":  "",
+        "example":  "The applicant received a notice of refusal because the mark lacked distinctiveness. (申請人因該商標缺乏識別性而收到核駁通知。)"
+    },
+    {
+        "id":  247,
+        "english":  "registrant",
+        "chinese":  "註冊人",
+        "note":  "",
+        "example":  "The registrant is responsible for maintaining the trademark registration. (註冊人負責維持該商標的註冊。)"
+    },
+    {
+        "id":  248,
+        "english":  "registration",
+        "chinese":  "註冊",
+        "note":  "",
+        "example":  "Trademark registration provides the owner with exclusive rights to use the mark. (商標註冊賦予所有權人使用該標誌的專屬權。)"
+    },
+    {
+        "id":  249,
+        "english":  "registration certificate",
+        "chinese":  "註冊證",
+        "note":  "",
+        "example":  "Keep your original registration certificate in a safe place. (請妥善保管您的註冊證原件。)"
+    },
+    {
+        "id":  250,
+        "english":  "rejection of appeal",
+        "chinese":  "訴願駁回 / 駁回訴願",
+        "note":  "",
+        "example":  "The high court announced the rejection of appeal filed by the defendant. (高等法院宣布駁回被告提出的訴願。)"
+    },
+    {
+        "id":  251,
+        "english":  "relative ground",
+        "chinese":  "相對核駁理由",
+        "note":  "",
+        "example":  "The examiner cited a prior similar mark as a relative ground for refusal. (審查委員引述先前的相似商標作為相對核駁理由。)"
+    },
+    {
+        "id":  252,
+        "english":  "relevant purchaser",
+        "chinese":  "相關消費者 / 相關購買者",
+        "note":  "",
+        "example":  "The likelihood of confusion is assessed from the perspective of a relevant purchaser. (混淆誤認之虞是從相關消費者的角度進行評估的。)"
+    },
+    {
+        "id":  253,
+        "english":  "relevant purchasing public",
+        "chinese":  "相關消費大眾",
+        "note":  "",
+        "example":  "The mark has become well-known among the relevant purchasing public. (該商標在相關消費大眾中已具有知名度。)"
+    },
+    {
+        "id":  254,
+        "english":  "remedies for infringement",
+        "chinese":  "侵害救濟",
+        "note":  "",
+        "example":  "Common remedies for infringement include monetary damages and injunctions. (常見的侵害救濟措施包括金錢損害賠償與禁制令。)"
+    },
+    {
+        "id":  255,
+        "english":  "renewals of registration",
+        "chinese":  "註冊延展",
+        "note":  "",
+        "example":  "Renewals of registration must be filed every ten years to keep the mark active. (必須每十年辦理一次註冊延展，以維持商標效力。)"
+    },
+    {
+        "id":  256,
+        "english":  "reverse confusion",
+        "chinese":  "反向混淆",
+        "note":  "",
+        "example":  "Reverse confusion occurs when a larger company uses a mark previously owned by a smaller one. (當大公司使用小公司先前擁有的商標時，會發生反向混淆。)"
+    },
+    {
+        "id":  257,
+        "english":  "revocation",
+        "chinese":  "廢止 / 撤銷",
+        "note":  "",
+        "example":  "Failure to use the mark for three years may lead to a revocation of the registration. (三年未使用商標可能導致註冊被廢止。)"
+    },
+    {
+        "id":  258,
+        "english":  "Rights of prior use",
+        "chinese":  "先使用權",
+        "note":  "",
+        "example":  "The defendant claimed rights of prior use as a defense against the lawsuit. (被告主張先使用權作為訴訟的抗辯理由。)"
+    },
+    {
+        "id":  259,
+        "english":  "Rome Convention",
+        "chinese":  "羅馬公約",
+        "note":  "",
+        "example":  "The Rome Convention protects the rights of performers and producers of phonograms. (羅馬公約保護表演者與錄音物製作人的權利。)"
+    },
+    {
+        "id":  260,
+        "english":  "Rule of Origin",
+        "chinese":  "原產地規則",
+        "note":  "",
+        "example":  "The Rule of Origin determines the nationality of a product in international trade. (原產地規則決定了國際貿易中產品的國籍。)"
+    },
+    {
+        "id":  261,
+        "english":  "scandalous",
+        "chinese":  "妨害風化 / 猥褻的",
+        "note":  "",
+        "example":  "A mark that contains scandalous images will be refused registration. (包含妨害風化影像的商標將被拒絕註冊。)"
+    },
+    {
+        "id":  262,
+        "english":  "scent mark",
+        "chinese":  "氣味商標",
+        "note":  "",
+        "example":  "It is difficult to represent a scent mark graphically for registration. (要將氣味商標以圖文表示進行註冊是非常困難的。)"
+    },
+    {
+        "id":  263,
+        "english":  "second level domain name (SLD)",
+        "chinese":  "第二層網域名稱",
+        "note":  "",
+        "example":  "In the URL \"google.com\", \"google\" is the second level domain name (SLD). (在網址 \"google.com\" 中，\"google\" 是第二層網域名稱。)"
+    },
+    {
+        "id":  264,
+        "english":  "secondary meaning",
+        "chinese":  "第二意義",
+        "note":  "",
+        "example":  "A descriptive term can only be registered if it has acquired secondary meaning. (描述性名詞只有在取得第二意義後才能被註冊。)"
+    },
+    {
+        "id":  265,
+        "english":  "senior user",
+        "chinese":  "先使用人",
+        "note":  "",
+        "example":  "The senior user typically has priority rights over the trademark in a specific region. (先使用人通常在特定地區擁有該商標的優先權利。)"
+    },
+    {
+        "id":  266,
+        "english":  "series of marks",
+        "chinese":  "系列商標",
+        "note":  "",
+        "example":  "The company registered a series of marks to protect various versions of their logo. (該公司註冊了一系列商標，以保護其標誌的各種版本。)"
+    },
+    {
+        "id":  267,
+        "english":  "service mark",
+        "chinese":  "服務標章",
+        "note":  "",
+        "example":  "The airline company uses a service mark to distinguish its transportation services. (航空公司使用服務標章來區別其運輸服務。)"
+    },
+    {
+        "id":  268,
+        "english":  "Small and Medium sized Enterprise (SME)",
+        "chinese":  "中小企業",
+        "note":  "",
+        "example":  "The government provides subsidies for Small and Medium sized Enterprises (SME) to file patents. (政府為中小企業申請專利提供補貼。)"
+    },
+    {
+        "id":  269,
+        "english":  "sole license",
+        "chinese":  "獨家授權",
+        "note":  "",
+        "example":  "A sole license means the licensor will not grant licenses to anyone else, but keeps the right to use it themselves. (獨家授權代表授權人不會再授權給其他人，但保留自己使用的權利。)"
+    },
+    {
+        "id":  270,
+        "english":  "Sound, Appearance and Meaning (S.A.M.)",
+        "chinese":  "讀音、外觀與觀念",
+        "note":  "",
+        "example":  "The examiner will evaluate the likelihood of confusion based on Sound, Appearance and Meaning (S.A.M.). (審查委員將根據讀音、外觀與觀念來評估混淆誤認之虞。)"
+    },
+    {
+        "id":  271,
+        "english":  "Standing Committee on the Law of Trade Marks, Industrial Design and Geographical Indications (SCT)",
+        "chinese":  "商標、工業設計暨地理標示法律常設委員會",
+        "note":  "",
+        "example":  "The Standing Committee discussed new international protection standards for geographical indications. (商標、工業設計暨地理標示法律常設委員會討論了地理標示的新國際保護標準。)"
+    },
+    {
+        "id":  272,
+        "english":  "Statement of Use (SOU)",
+        "chinese":  "使用聲明",
+        "note":  "",
+        "example":  "You must file a Statement of Use (SOU) after receiving the Notice of Allowance to complete the registration. (您必須在收到核准通知後提交使用聲明，以完成註冊程序。)"
+    },
+    {
+        "id":  273,
+        "english":  "statutory period",
+        "chinese":  "法定期間",
+        "note":  "",
+        "example":  "The response must be submitted within the statutory period to avoid the application being abandoned. (答辯書必須在法定期間內提交，以避免申請案被視為放棄。)"
+    },
+    {
+        "id":  274,
+        "english":  "strong mark",
+        "chinese":  "強勢商標",
+        "note":  "",
+        "example":  "A strong mark is inherently distinctive and usually easier to protect against infringement. (強勢商標具有先天識別性，通常較容易對抗侵權行為。)"
+    },
+    {
+        "id":  275,
+        "english":  "Substantive Patent Law Treaty (SPLT)",
+        "chinese":  "實體專利法條約",
+        "note":  "",
+        "example":  "The Substantive Patent Law Treaty (SPLT) aims to harmonize international patent examination standards. (實體專利法條約旨在調和國際專利審查標準。)"
+    },
+    {
+        "id":  276,
+        "english":  "substantive reasons for refusal",
+        "chinese":  "實體核駁理由",
+        "note":  "",
+        "example":  "The trademark was rejected based on substantive reasons for refusal, such as its lack of distinctiveness. (該商標因實體核駁理由而被拒絕，例如其缺乏識別性。)"
+    },
+    {
+        "id":  277,
+        "english":  "suggestive mark",
+        "chinese":  "暗示性商標",
+        "note":  "",
+        "example":  "Netflix is considered a suggestive mark because it hints at the service provided without directly describing it. (「Netflix」被視為暗示性商標，因為它暗示了所提供的服務而非直接描述。)"
+    },
+    {
+        "id":  278,
+        "english":  "supplemental register",
+        "chinese":  "輔助註冊簿",
+        "note":  "",
+        "example":  "Marks that are merely descriptive but capable of becoming distinctive may be placed on the supplemental register. (僅具描述性但有潛力具備識別性的商標，可能會被列入輔助註冊簿。)"
+    },
+    {
+        "id":  279,
+        "english":  "suspension letter",
+        "chinese":  "暫停審查通知",
+        "note":  "",
+        "example":  "The trademark office issued a suspension letter while waiting for a decision in a related court case. (商標局在等待相關法院案件的裁決期間，發出了暫停審查通知。)"
+    },
+    {
+        "id":  280,
+        "english":  "suspension of release",
+        "chinese":  "暫停放行",
+        "note":  "",
+        "example":  "The trademark owner requested a suspension of release for the shipment of suspected counterfeit goods. (商標所有權人請求對該批疑似仿冒品採取暫停放行措施。)"
+    },
+    {
+        "id":  281,
+        "english":  "Symbol of Excellence",
+        "chinese":  "台灣精品標誌 / 卓越標誌",
+        "note":  "",
+        "example":  "Our new laptop was honored with the Symbol of Excellence for its innovative design. (我們的新筆電因其創新設計而榮獲台灣精品標誌。)"
+    },
+    {
+        "id":  282,
+        "english":  "temporary restraining order (TRO)",
+        "chinese":  "暫時禁制令",
+        "note":  "",
+        "example":  "The court issued a temporary restraining order (TRO) to prevent the defendant from selling the goods. (法院核發了暫時禁制令，以防止被告銷售該商品。)"
+    },
+    {
+        "id":  283,
+        "english":  "The Office for Harmonization in the Internal Market (OHIM)",
+        "chinese":  "(歐盟)內部市場協調局",
+        "note":  "",
+        "example":  "The Office for Harmonization in the Internal Market (OHIM) was the predecessor of the European Union Intellectual Property Office. (歐盟內部市場協調局是歐盟智慧財產權局的前身。)"
+    },
+    {
+        "id":  284,
+        "english":  "three-dimensional mark",
+        "chinese":  "立體商標",
+        "note":  "",
+        "example":  "The unique shape of the Coca-Cola bottle is protected as a famous three-dimensional mark. (可口可樂瓶子的獨特形狀作為著名的立體商標受到保護。)"
+    },
+    {
+        "id":  285,
+        "english":  "trade dress",
+        "chinese":  "商業外觀 / 商品包裝",
+        "note":  "",
+        "example":  "The restaurant\u0027s distinctive interior design and color scheme are protected as trade dress. (該餐廳獨特的裝潢設計與配色受商業外觀保護。)"
+    },
+    {
+        "id":  286,
+        "english":  "trade mark journal",
+        "chinese":  "商標公報",
+        "note":  "",
+        "example":  "All newly approved trademarks are published in the trade mark journal for opposition purposes. (所有新核准的商標都會刊登在商標公報上以供異議。)"
+    },
+    {
+        "id":  287,
+        "english":  "trade mark register",
+        "chinese":  "商標註冊簿",
+        "note":  "",
+        "example":  "You can search the trade mark register to see if a specific name is already taken. (您可以檢索商標註冊簿，查看特定名稱是否已被使用。)"
+    },
+    {
+        "id":  288,
+        "english":  "trade name",
+        "chinese":  "營業名稱 / 商號",
+        "note":  "",
+        "example":  "A trade name is used to identify a business, while a trademark identifies specific products. (營業名稱是用於識別企業，而商標則用於識別特定產品。)"
+    },
+    {
+        "id":  289,
+        "english":  "trade secret",
+        "chinese":  "營業秘密",
+        "note":  "",
+        "example":  "The company\u0027s secret formula is protected as a valuable trade secret. (該公司的秘密配方作為有價值的營業秘密受到保護。)"
+    },
+    {
+        "id":  290,
+        "english":  "Trademark Application and Registration Retrieval System (TARR)",
+        "chinese":  "(美國)商標申請與註冊檢索系統",
+        "note":  "",
+        "example":  "The lawyer used the Trademark Application and Registration Retrieval System (TARR) to check the application status. (律師使用商標申請與註冊檢索系統來查詢申請進度。)"
+    },
+    {
+        "id":  291,
+        "english":  "Trademark Act",
+        "chinese":  "商標法",
+        "note":  "",
+        "example":  "The new Trademark Act includes stricter penalties for intentional infringement. (新商標法對故意侵權行為包含了更嚴厲的處罰。)"
+    },
+    {
+        "id":  292,
+        "english":  "trademark attorney",
+        "chinese":  "商標代理人",
+        "note":  "",
+        "example":  "We hired a trademark attorney to handle our international filings and legal disputes. (我們聘請了商標代理人來處理我們的國際申請與法律爭議。)"
+    },
+    {
+        "id":  293,
+        "english":  "Trademark Electronic Application System (TEAS)",
+        "chinese":  "(美國)商標電子申請系統",
+        "note":  "",
+        "example":  "Most trademark applications in the US are now filed through the Trademark Electronic Application System (TEAS). (在美國，大多數商標申請案現在是透過商標電子申請系統提交的。)"
+    },
+    {
+        "id":  294,
+        "english":  "Trademark Electronic Search System (TESS)",
+        "chinese":  "(美國)商標電子檢索系統",
+        "note":  "",
+        "example":  "Before filing, we performed a search on the Trademark Electronic Search System (TESS). (在申請前，我們在商標電子檢索系統中執行了搜尋。)"
+    },
+    {
+        "id":  295,
+        "english":  "Trademark Law Treaty (TLT)",
+        "chinese":  "商標法條約",
+        "note":  "",
+        "example":  "The Trademark Law Treaty (TLT) simplifies and harmonizes administrative procedures for trademark registration. (商標法條約簡化並調和了商標註冊的行政程序。)"
+    },
+    {
+        "id":  296,
+        "english":  "Trademark Manual of Examining Procedure (TMEP)",
+        "chinese":  "(美國)商標審查程序手冊",
+        "note":  "",
+        "example":  "Examiners follow the rules outlined in the Trademark Manual of Examining Procedure (TMEP). (審查委員遵循商標審查程序手冊中所列的規範。)"
+    },
+    {
+        "id":  297,
+        "english":  "Trademark Official Gazette",
+        "chinese":  "商標官方公報",
+        "note":  "",
+        "example":  "The mark will be published in the Trademark Official Gazette next week. (該商標將於下週刊登在商標官方公報上。)"
+    },
+    {
+        "id":  298,
+        "english":  "Trademark Trial and Appeal Board (TTAB)",
+        "chinese":  "(美國)商標審判暨上訴委員會",
+        "note":  "",
+        "example":  "The dispute over the registration is currently being heard by the Trademark Trial and Appeal Board (TTAB). (該註冊爭議目前正由商標審判暨上訴委員會審理中。)"
+    },
+    {
+        "id":  299,
+        "english":  "U.S. Court of Appeals for the Federal Circuit (CAFC)",
+        "chinese":  "美國聯邦巡迴上訴法院",
+        "note":  "",
+        "example":  "The patent infringement decision was appealed to the U.S. Court of Appeals for the Federal Circuit (CAFC). (該專利侵權判決已上訴至美國聯邦巡迴上訴法院。)"
+    },
+    {
+        "id":  300,
+        "english":  "U.S. Supreme Court",
+        "chinese":  "美國聯邦最高法院",
+        "note":  "",
+        "example":  "The U.S. Supreme Court will make the final decision on this landmark copyright case. (美國聯邦最高法院將對這起具里程碑意義的著作權案件做出最終裁決。)"
+    },
+    {
+        "id":  301,
+        "english":  "unfair competition",
+        "chinese":  "不公平競爭",
+        "note":  "",
+        "example":  "The company was sued for unfair competition after using misleading advertisements. (該公司因使用誤導性廣告而被控不公平競爭。)"
+    },
+    {
+        "id":  302,
+        "english":  "Uniform Domain Dispute Resolution Policy (UDRP)",
+        "chinese":  "統一網域名稱爭議解決政策",
+        "note":  "",
+        "example":  "The trademark owner initiated a proceeding under the Uniform Domain Dispute Resolution Policy (UDRP) to recover the domain name. (商標所有權人根據統一網域名稱爭議解決政策啟動程序以收回網域名稱。)"
+    },
+    {
+        "id":  303,
+        "english":  "United States Code (U.S.C.)",
+        "chinese":  "美國法典",
+        "note":  "",
+        "example":  "Patent laws are codified in Title 35 of the United States Code (U.S.C.). (專利法編列於美國法典第 35 篇中。)"
+    },
+    {
+        "id":  304,
+        "english":  "United States Patent and Trademark Office (USPTO)",
+        "chinese":  "美國專利商標局",
+        "note":  "",
+        "example":  "The applicant filed a trademark application with the United States Patent and Trademark Office (USPTO). (申請人向美國專利商標局提交了商標申請。)"
+    },
+    {
+        "id":  305,
+        "english":  "United States Trade Representative (USTR)",
+        "chinese":  "美國貿易代表署",
+        "note":  "",
+        "example":  "The United States Trade Representative (USTR) released the Special 301 Report on intellectual property protection. (美國貿易代表署發布了關於智慧財產權保護的特別 301 報告。)"
+    },
+    {
+        "id":  306,
+        "english":  "utilitarian function",
+        "chinese":  "實用功能性",
+        "note":  "",
+        "example":  "A design cannot be protected as a trademark if it primarily serves a utilitarian function. (如果設計主要具備實用功能性，則不能作為商標受到保護。)"
+    },
+    {
+        "id":  307,
+        "english":  "utility patent",
+        "chinese":  "發明專利 / 實用專利",
+        "note":  "",
+        "example":  "The inventor was granted a utility patent for the new chemical process. (發明人的新化學程序獲得了發明專利/實用專利。)"
+    },
+    {
+        "id":  308,
+        "english":  "Vienna Agreement",
+        "chinese":  "維也納協定",
+        "note":  "",
+        "example":  "The Vienna Agreement establishes a classification for marks that consist of figurative elements. (維也納協定為包含圖形元素的標章建立了分類系統。)"
+    },
+    {
+        "id":  309,
+        "english":  "visually perceptible representation",
+        "chinese":  "視覺可感知之表示",
+        "note":  "",
+        "example":  "Modern trademark laws in some regions no longer require a visually perceptible representation for registration. (某些地區的現代商標法不再要求註冊時必須具備視覺可感知之表示。)"
+    },
+    {
+        "id":  310,
+        "english":  "Washington Treaty",
+        "chinese":  "華盛頓條約",
+        "note":  "",
+        "example":  "The Washington Treaty deals with the protection of layout-designs of integrated circuits. (華盛頓條約涉及積體電路電路布局之保護。)"
+    },
+    {
+        "id":  311,
+        "english":  "weak mark",
+        "chinese":  "弱勢商標",
+        "note":  "",
+        "example":  "A weak mark that is merely descriptive requires evidence of secondary meaning to be protected. (僅具描述性的弱勢商標需要有第二意義的證據才能受到保護。)"
+    },
+    {
+        "id":  312,
+        "english":  "well-known marks",
+        "chinese":  "著名商標",
+        "note":  "",
+        "example":  "Well-known marks are entitled to a higher level of protection against infringement and dilution. (著名商標有權獲得更高水準的保護，以防止侵害及淡化。)"
+    },
+    {
+        "id":  313,
+        "english":  "white paper",
+        "chinese":  "白皮書",
+        "note":  "",
+        "example":  "The government issued a white paper outlining the future of intellectual property policy. (政府發布了一份白皮書，概述了智慧財產權政策的未來。)"
+    },
+    {
+        "id":  314,
+        "english":  "WIPO Copyright Treaty (WCT)",
+        "chinese":  "世界智慧財產權組織著作權條約",
+        "note":  "",
+        "example":  "The WIPO Copyright Treaty (WCT) was adopted to address challenges from digital technology. (世界智慧財產權組織著作權條約旨在因應數位科技帶來的挑戰。)"
+    },
+    {
+        "id":  315,
+        "english":  "WIPO Performance \u0026 Phonograms Treaty (WPPT)",
+        "chinese":  "世界智慧財產權組織表演及錄音物條約",
+        "note":  "",
+        "example":  "The WIPO Performance \u0026 Phonograms Treaty (WPPT) protects the rights of performers and producers in the digital age. (世界智慧財產權組織表演及錄音物條約保護數位時代表演者與製作人的權利。)"
+    },
+    {
+        "id":  316,
+        "english":  "World Intellectual Property Organization (WIPO)",
+        "chinese":  "世界智慧財產權組織",
+        "note":  "",
+        "example":  "The World Intellectual Property Organization (WIPO) is a specialized agency of the United Nations. (世界智慧財產權組織是聯合國的一個專門機構。)"
+    },
+    {
+        "id":  317,
+        "english":  "World Trade Organization (WTO)",
+        "chinese":  "世界貿易組織",
+        "note":  "",
+        "example":  "The World Trade Organization (WTO) manages international trade rules and settles disputes. (世界貿易組織管理國際貿易規則並解決爭端。)"
+    },
+    {
+        "id":  318,
+        "english":  "written consent",
+        "chinese":  "書面同意",
+        "note":  "",
+        "example":  "You must obtain the prior written consent of the licensor before transferring your rights. (在轉讓您的權利之前，您必須取得授權人的事先書面同意。)"
+    }
+]

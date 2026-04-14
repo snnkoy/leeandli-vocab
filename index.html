@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  
+  <!-- SEO -->
+  <title>理律法律英文單字</title>
+  <meta name="description" content="理律法律英文專業單字學習 App，支援離線背單字、測驗與進度追蹤。">
+  
+  <!-- iOS PWA Meta Tags -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="理律單字">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  
+  <!-- Theme color for browser -->
+  <meta name="theme-color" content="#0f172a">
+  
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- ========== Header ========== -->
+    <header class="app-header" id="app-header">
+      <h1>理律法律英文</h1>
+      <p class="header-subtitle">Lee & Li Legal English Vocabulary</p>
+      <div class="header-stats" id="header-stats">
+        <span class="stat-pill"><span class="dot green"></span><span id="stat-high">0</span> 熟練</span>
+        <span class="stat-pill"><span class="dot orange"></span><span id="stat-mid">0</span> 待加強</span>
+        <span class="stat-pill"><span class="dot red"></span><span id="stat-low">0</span> 不熟</span>
+      </div>
+    </header>
+
+    <!-- ========== Vocab List Page ========== -->
+    <div id="page-list" class="page active">
+      <!-- Search & Filters -->
+      <div class="search-container">
+        <div class="search-bar">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="search-input" placeholder="搜尋單字...">
+        </div>
+        <div class="filter-pills" id="filter-pills">
+          <button class="filter-pill active" data-filter="all">全部 <span id="filter-count-all">318</span></button>
+          <button class="filter-pill" data-filter="high">🟢 熟練</button>
+          <button class="filter-pill" data-filter="mid">🟡 待加強</button>
+          <button class="filter-pill" data-filter="low">🔴 不熟</button>
+        </div>
+      </div>
+      
+      <!-- Vocab List -->
+      <div class="content-area" id="vocab-list-container">
+        <!-- Items rendered by JS -->
+      </div>
+    </div>
+
+    <!-- ========== Quiz Page ========== -->
+    <div id="page-quiz" class="page">
+      <div class="content-area" id="quiz-content">
+        <!-- Quiz start / quiz card / quiz result rendered by JS -->
+      </div>
+    </div>
+
+    <!-- ========== Bottom Tab Bar ========== -->
+    <nav class="tab-bar">
+      <button class="tab-item active" data-tab="list" id="tab-list">
+        <span class="tab-icon">📚</span>
+        <span>單字清單</span>
+      </button>
+      <button class="tab-item" data-tab="quiz" id="tab-quiz">
+        <span class="tab-icon">✏️</span>
+        <span>我要來讀書了！</span>
+      </button>
+    </nav>
+  </div>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
