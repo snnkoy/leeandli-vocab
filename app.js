@@ -644,6 +644,33 @@
   // ============================================
   // Text-to-Speech (Web Speech API)
   // ============================================
+  let preferredVoice = null;
+
+  function selectBestVoice() {
+    const voices = window.speechSynthesis.getVoices();
+    if (!voices.length) return;
+
+    // Priority 1: iOS/macOS premium voices — Samantha (US female) or Daniel (UK male)
+    const premium = voices.find((v) =>
+      /samantha/i.test(v.name) || /daniel/i.test(v.name)
+    );
+    if (premium) {
+      preferredVoice = premium;
+      return;
+    }
+
+    // Priority 2: Any en-US or en-GB voice
+    const enVoice = voices.find((v) => v.lang === 'en-US') ||
+      voices.find((v) => v.lang === 'en-GB');
+    if (enVoice) {
+      preferredVoice = enVoice;
+      return;
+    }
+
+    // Priority 3: Any English voice at all
+    preferredVoice = voices.find((v) => v.lang.startsWith('en')) || null;
+  }
+
   function speakText(text, lang) {
     if (!('speechSynthesis' in window)) return;
     // Cancel any ongoing speech
@@ -654,20 +681,19 @@
     utterance.rate = 0.9;
     utterance.pitch = 1;
 
-    // Try to find a matching voice
-    const voices = window.speechSynthesis.getVoices();
-    const match = voices.find((v) => v.lang === utterance.lang) ||
-      voices.find((v) => v.lang.startsWith(utterance.lang.split('-')[0]));
-    if (match) utterance.voice = match;
+    // Use the cached preferred voice if available
+    if (preferredVoice) {
+      utterance.voice = preferredVoice;
+    }
 
     window.speechSynthesis.speak(utterance);
     return utterance;
   }
 
-  // Preload voices (some browsers load them asynchronously)
+  // Voices may load asynchronously — select best voice when ready
   if ('speechSynthesis' in window) {
-    window.speechSynthesis.getVoices();
-    window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+    selectBestVoice(); // Try immediately (works on some browsers)
+    window.speechSynthesis.addEventListener('voiceschanged', selectBestVoice);
   }
 
   // ============================================
