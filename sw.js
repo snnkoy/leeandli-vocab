@@ -1,4 +1,4 @@
-const CACHE_NAME = 'leeandli-vocab-v1';
+const CACHE_NAME = 'leeandli-vocab-v3';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',

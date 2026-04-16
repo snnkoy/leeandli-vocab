@@ -175,7 +175,12 @@
           </div>
           <div class="vocab-item-detail">
             <div class="vocab-detail-content">
-              <div class="detail-english">${escapeHtml(w.english)}</div>
+              <div class="detail-english-row">
+                <div class="detail-english">${escapeHtml(w.english)}</div>
+                <button class="btn-speak" data-speak="${escapeHtml(w.english)}" data-lang="en-US" title="朗讀單字">
+                  <svg class="speak-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+                </button>
+              </div>
               <div class="detail-row">
                 <span class="label">中文</span>
                 <span class="value">${escapeHtml(w.chinese)}</span>
@@ -189,6 +194,9 @@
               <div class="detail-row">
                 <span class="label">例句</span>
                 <span class="value">${escapeHtml(w.example)}</span>
+                <button class="btn-speak btn-speak-sm" data-speak="${escapeHtml(extractEnglish(w.example))}" data-lang="en-US" title="朗讀例句">
+                  <svg class="speak-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+                </button>
               </div>` : ''}
               <div class="proficiency-bar-container">
                 <div class="proficiency-bar-label">熟練度 ${prof}%</div>
@@ -263,6 +271,23 @@
   // Vocab Click Handler
   // ============================================
   function handleVocabClick(e) {
+    // Handle speak button
+    const speakBtn = e.target.closest('.btn-speak');
+    if (speakBtn) {
+      e.stopPropagation();
+      const text = speakBtn.dataset.speak;
+      const lang = speakBtn.dataset.lang || 'en-US';
+      speakBtn.classList.add('speaking');
+      const utterance = speakText(text, lang);
+      if (utterance) {
+        utterance.onend = () => speakBtn.classList.remove('speaking');
+        utterance.onerror = () => speakBtn.classList.remove('speaking');
+        // Fallback: remove class after a timeout in case events don't fire
+        setTimeout(() => speakBtn.classList.remove('speaking'), 5000);
+      }
+      return;
+    }
+
     // Handle expand/collapse
     const header = e.target.closest('.vocab-item-header');
     if (header) {
@@ -368,10 +393,18 @@
           <div class="flashcard" id="flashcard">
             <div class="flashcard-front">
               <div class="card-english">${escapeHtml(word.english)}</div>
+              <button class="btn-speak btn-speak-card" data-speak="${escapeHtml(word.english)}" data-lang="en-US" title="朗讀單字">
+                <svg class="speak-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+              </button>
               <div class="tap-hint">👆 點擊「看答案」翻開卡片</div>
             </div>
             <div class="flashcard-back">
-              <div class="card-back-english">${escapeHtml(word.english)}</div>
+              <div class="card-back-english-row">
+                <div class="card-back-english">${escapeHtml(word.english)}</div>
+                <button class="btn-speak btn-speak-card" data-speak="${escapeHtml(word.english)}" data-lang="en-US" title="朗讀單字">
+                  <svg class="speak-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+                </button>
+              </div>
               <div class="detail-row">
                 <span class="label">中文</span>
                 <span class="value">${escapeHtml(word.chinese)}</span>
@@ -385,6 +418,9 @@
               <div class="detail-row">
                 <span class="label">例句</span>
                 <span class="value">${escapeHtml(word.example)}</span>
+                <button class="btn-speak btn-speak-sm" data-speak="${escapeHtml(extractEnglish(word.example))}" data-lang="en-US" title="朗讀例句">
+                  <svg class="speak-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+                </button>
               </div>` : ''}
             </div>
           </div>
@@ -522,10 +558,21 @@
   function renderResultCard(word, isCorrect) {
     return `
       <div class="result-word-card ${isCorrect ? 'correct' : 'wrong'}">
-        <div class="rw-english">${escapeHtml(word.english)}</div>
+        <div class="rw-header">
+          <div class="rw-english">${escapeHtml(word.english)}</div>
+          <button class="btn-speak btn-speak-sm" data-speak="${escapeHtml(word.english)}" data-lang="en-US" title="朗讀單字">
+            <svg class="speak-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+          </button>
+        </div>
         <div class="rw-chinese">${escapeHtml(word.chinese)}</div>
         ${word.note ? `<div class="rw-note">📌 ${escapeHtml(word.note)}</div>` : ''}
-        ${word.example ? `<div class="rw-example">💬 ${escapeHtml(word.example)}</div>` : ''}
+        ${word.example ? `
+        <div class="rw-example-row">
+          <div class="rw-example">💬 ${escapeHtml(word.example)}</div>
+          <button class="btn-speak btn-speak-xs" data-speak="${escapeHtml(extractEnglish(word.example))}" data-lang="en-US" title="朗讀例句">
+            <svg class="speak-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+          </button>
+        </div>` : ''}
       </div>
     `;
   }
@@ -534,6 +581,22 @@
   // Quiz Click Handler
   // ============================================
   function handleQuizClick(e) {
+    // Handle speak button (must be before other handlers to prevent bubbling)
+    const speakBtn = e.target.closest('.btn-speak');
+    if (speakBtn) {
+      e.stopPropagation();
+      const text = speakBtn.dataset.speak;
+      const lang = speakBtn.dataset.lang || 'en-US';
+      speakBtn.classList.add('speaking');
+      const utterance = speakText(text, lang);
+      if (utterance) {
+        utterance.onend = () => speakBtn.classList.remove('speaking');
+        utterance.onerror = () => speakBtn.classList.remove('speaking');
+        setTimeout(() => speakBtn.classList.remove('speaking'), 5000);
+      }
+      return;
+    }
+
     // Category selection
     const catBtn = e.target.closest('.quiz-cat-btn');
     if (catBtn && !catBtn.disabled) {
@@ -579,6 +642,35 @@
   }
 
   // ============================================
+  // Text-to-Speech (Web Speech API)
+  // ============================================
+  function speakText(text, lang) {
+    if (!('speechSynthesis' in window)) return;
+    // Cancel any ongoing speech
+    window.speechSynthesis.cancel();
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = lang || 'en-US';
+    utterance.rate = 0.9;
+    utterance.pitch = 1;
+
+    // Try to find a matching voice
+    const voices = window.speechSynthesis.getVoices();
+    const match = voices.find((v) => v.lang === utterance.lang) ||
+      voices.find((v) => v.lang.startsWith(utterance.lang.split('-')[0]));
+    if (match) utterance.voice = match;
+
+    window.speechSynthesis.speak(utterance);
+    return utterance;
+  }
+
+  // Preload voices (some browsers load them asynchronously)
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.getVoices();
+    window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+  }
+
+  // ============================================
   // Utilities
   // ============================================
   function escapeHtml(str) {
@@ -586,6 +678,14 @@
     const div = document.createElement('div');
     div.textContent = str;
     return div.innerHTML;
+  }
+
+  // Extract only the English portion from example sentences
+  // Format: "English sentence. (中文翻譯。)" → "English sentence."
+  function extractEnglish(str) {
+    if (!str) return '';
+    // Remove trailing parenthesized Chinese text
+    return str.replace(/\s*[\(（][^\)）]*[\)）]\s*$/, '').trim();
   }
 
   function shuffleArray(arr) {

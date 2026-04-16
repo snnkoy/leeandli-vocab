@@ -40,7 +40,9 @@
 }
 
 /* Reset & Base */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -152,9 +154,17 @@ body::before {
   border-radius: 50%;
 }
 
-.stat-pill .dot.green { background: var(--accent-green); }
-.stat-pill .dot.orange { background: var(--accent-orange); }
-.stat-pill .dot.red { background: var(--accent-red); }
+.stat-pill .dot.green {
+  background: var(--accent-green);
+}
+
+.stat-pill .dot.orange {
+  background: var(--accent-orange);
+}
+
+.stat-pill .dot.red {
+  background: var(--accent-red);
+}
 
 /* ============================================
    Search Bar
@@ -226,7 +236,8 @@ body::before {
   opacity: 0;
 }
 
-.vocab-item:hover, .vocab-item:active {
+.vocab-item:hover,
+.vocab-item:active {
   background: var(--bg-glass-hover);
   border-color: rgba(255, 255, 255, 0.12);
 }
@@ -355,7 +366,8 @@ body::before {
   margin-top: 14px;
 }
 
-.btn-memorized, .btn-retry {
+.btn-memorized,
+.btn-retry {
   flex: 1;
   padding: 10px 16px;
   border: none;
@@ -504,7 +516,9 @@ body::before {
 .quiz-cat-btn.green {
   border-color: rgba(52, 211, 153, 0.3);
 }
-.quiz-cat-btn.green:hover, .quiz-cat-btn.green:active {
+
+.quiz-cat-btn.green:hover,
+.quiz-cat-btn.green:active {
   background: rgba(52, 211, 153, 0.1);
   border-color: var(--accent-green);
 }
@@ -512,7 +526,9 @@ body::before {
 .quiz-cat-btn.orange {
   border-color: rgba(251, 146, 60, 0.3);
 }
-.quiz-cat-btn.orange:hover, .quiz-cat-btn.orange:active {
+
+.quiz-cat-btn.orange:hover,
+.quiz-cat-btn.orange:active {
   background: rgba(251, 146, 60, 0.1);
   border-color: var(--accent-orange);
 }
@@ -520,7 +536,9 @@ body::before {
 .quiz-cat-btn.red {
   border-color: rgba(248, 113, 113, 0.3);
 }
-.quiz-cat-btn.red:hover, .quiz-cat-btn.red:active {
+
+.quiz-cat-btn.red:hover,
+.quiz-cat-btn.red:active {
   background: rgba(248, 113, 113, 0.1);
   border-color: var(--accent-red);
 }
@@ -580,7 +598,8 @@ body::before {
   transform: rotateY(180deg);
 }
 
-.flashcard-front, .flashcard-back {
+.flashcard-front,
+.flashcard-back {
   position: absolute;
   width: 100%;
   min-height: 320px;
@@ -681,7 +700,8 @@ body::before {
   gap: 10px;
 }
 
-.btn-quiz-correct, .btn-quiz-wrong {
+.btn-quiz-correct,
+.btn-quiz-wrong {
   flex: 1;
   padding: 14px;
   border: none;
@@ -707,7 +727,8 @@ body::before {
   color: white;
 }
 
-.btn-quiz-correct:active, .btn-quiz-wrong:active {
+.btn-quiz-correct:active,
+.btn-quiz-wrong:active {
   transform: scale(0.96);
 }
 
@@ -887,41 +908,105 @@ body::before {
    Animations
    ============================================ */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes slideUp {
-  from { opacity: 0; transform: translateY(12px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 @keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
 }
 
 @keyframes confetti {
-  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
-  100% { transform: translateY(-100px) rotate(720deg); opacity: 0; }
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-100px) rotate(720deg);
+    opacity: 0;
+  }
 }
 
 /* Staggered animation for list items */
-.vocab-item:nth-child(1) { animation-delay: 0.02s; }
-.vocab-item:nth-child(2) { animation-delay: 0.04s; }
-.vocab-item:nth-child(3) { animation-delay: 0.06s; }
-.vocab-item:nth-child(4) { animation-delay: 0.08s; }
-.vocab-item:nth-child(5) { animation-delay: 0.10s; }
-.vocab-item:nth-child(6) { animation-delay: 0.12s; }
-.vocab-item:nth-child(7) { animation-delay: 0.14s; }
-.vocab-item:nth-child(8) { animation-delay: 0.16s; }
-.vocab-item:nth-child(9) { animation-delay: 0.18s; }
-.vocab-item:nth-child(10) { animation-delay: 0.20s; }
+.vocab-item:nth-child(1) {
+  animation-delay: 0.02s;
+}
+
+.vocab-item:nth-child(2) {
+  animation-delay: 0.04s;
+}
+
+.vocab-item:nth-child(3) {
+  animation-delay: 0.06s;
+}
+
+.vocab-item:nth-child(4) {
+  animation-delay: 0.08s;
+}
+
+.vocab-item:nth-child(5) {
+  animation-delay: 0.10s;
+}
+
+.vocab-item:nth-child(6) {
+  animation-delay: 0.12s;
+}
+
+.vocab-item:nth-child(7) {
+  animation-delay: 0.14s;
+}
+
+.vocab-item:nth-child(8) {
+  animation-delay: 0.16s;
+}
+
+.vocab-item:nth-child(9) {
+  animation-delay: 0.18s;
+}
+
+.vocab-item:nth-child(10) {
+  animation-delay: 0.20s;
+}
 
 /* ============================================
    Scrollbar styling
@@ -976,6 +1061,174 @@ body::before {
   color: var(--text-muted);
 }
 
+/* ============================================
+   Speak / TTS Button
+   ============================================ */
+.btn-speak {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-full);
+  background: var(--bg-glass);
+  color: var(--accent-blue-light);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.btn-speak:hover {
+  background: rgba(99, 102, 241, 0.15);
+  border-color: var(--accent-blue);
+  color: var(--accent-purple);
+}
+
+.btn-speak:active {
+  transform: scale(0.9);
+}
+
+.btn-speak .speak-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* Smaller variant for example sentences */
+.btn-speak-sm {
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+}
+
+.btn-speak-sm .speak-icon {
+  width: 13px;
+  height: 13px;
+}
+
+/* Tiny variant for result cards */
+.btn-speak-xs {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+}
+
+.btn-speak-xs .speak-icon {
+  width: 11px;
+  height: 11px;
+}
+
+/* Card variant – slightly bigger, on flashcard */
+.btn-speak-card {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  margin-top: 16px;
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  background: rgba(99, 102, 241, 0.1);
+}
+
+.btn-speak-card .speak-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-speak-card:hover {
+  background: rgba(99, 102, 241, 0.25);
+  border-color: var(--accent-blue-light);
+}
+
+/* Speaking animation (pulsing glow) */
+.btn-speak.speaking {
+  color: var(--accent-purple);
+  border-color: var(--accent-blue-light);
+  background: rgba(99, 102, 241, 0.2);
+  animation: speakPulse 0.8s ease-in-out infinite;
+}
+
+@keyframes speakPulse {
+
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 0 8px rgba(99, 102, 241, 0);
+  }
+}
+
+/* Layout rows to hold word + speak button inline */
+.detail-english-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+.detail-english-row .detail-english {
+  margin: 0;
+}
+
+/* Flashcard back english row */
+.card-back-english-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.card-back-english-row .card-back-english {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.card-back-english-row .btn-speak-card {
+  margin-top: 0;
+}
+
+/* Result card header row */
+.rw-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.rw-header .rw-english {
+  margin-bottom: 0;
+}
+
+/* Result card example row */
+.rw-example-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.rw-example-row .rw-example {
+  flex: 1;
+}
+
+/* Example row in detail/flashcard */
+.detail-row:has(.btn-speak) {
+  align-items: flex-start;
+}
+
+.detail-row .btn-speak {
+  margin-top: 0;
+  align-self: center;
+}
+
 /* Proficiency bar in detail */
 .proficiency-bar-container {
   margin-top: 10px;
@@ -1003,9 +1256,17 @@ body::before {
   transition: width 0.5s ease, background 0.3s ease;
 }
 
-.proficiency-bar-fill.high { background: linear-gradient(90deg, var(--accent-green-dark), var(--accent-green)); }
-.proficiency-bar-fill.mid { background: linear-gradient(90deg, var(--accent-orange-dark), var(--accent-orange)); }
-.proficiency-bar-fill.low { background: linear-gradient(90deg, var(--accent-red-dark), var(--accent-red)); }
+.proficiency-bar-fill.high {
+  background: linear-gradient(90deg, var(--accent-green-dark), var(--accent-green));
+}
+
+.proficiency-bar-fill.mid {
+  background: linear-gradient(90deg, var(--accent-orange-dark), var(--accent-orange));
+}
+
+.proficiency-bar-fill.low {
+  background: linear-gradient(90deg, var(--accent-red-dark), var(--accent-red));
+}
 
 /* Toast notification */
 .toast {
