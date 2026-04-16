@@ -1160,6 +1160,56 @@ body::before {
   }
 }
 
+/* Slow-mode visual indicator (Google Translate style) */
+.btn-speak.slow-mode {
+  position: relative;
+  border-color: var(--accent-orange);
+  background: rgba(251, 146, 60, 0.2);
+  color: var(--accent-orange);
+  animation: speakPulseSlow 1.2s ease-in-out infinite;
+}
+
+.btn-speak.slow-mode::after {
+  content: '慢速';
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  font-size: 0.5rem;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(135deg, var(--accent-orange-dark), var(--accent-orange));
+  padding: 1px 5px;
+  border-radius: var(--radius-full);
+  line-height: 1.4;
+  white-space: nowrap;
+  animation: slowBadgePop 0.3s ease-out;
+  box-shadow: 0 2px 6px rgba(251, 146, 60, 0.4);
+}
+
+@keyframes speakPulseSlow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(251, 146, 60, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 0 10px rgba(251, 146, 60, 0);
+  }
+}
+
+@keyframes slowBadgePop {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 /* Layout rows to hold word + speak button inline */
 .detail-english-row {
   display: flex;

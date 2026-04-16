@@ -268,23 +268,60 @@
   }
 
   // ============================================
+  // Speak Button Handler (Google Translate style)
+  // ============================================
+  let lastSpeakText = '';
+  let lastSpeakTime = 0;
+  const DOUBLE_CLICK_WINDOW = 1500; // ms
+
+  function handleSpeakBtn(speakBtn, e) {
+    e.stopPropagation();
+    const text = speakBtn.dataset.speak;
+    const lang = speakBtn.dataset.lang || 'en-US';
+    const now = Date.now();
+
+    // Determine speed: double-click same text → slow
+    let isSlow = false;
+    if (text === lastSpeakText && (now - lastSpeakTime) < DOUBLE_CLICK_WINDOW) {
+      isSlow = true;
+      lastSpeakText = '';
+      lastSpeakTime = 0;
+    } else {
+      lastSpeakText = text;
+      lastSpeakTime = now;
+    }
+
+    const rate = isSlow ? 0.6 : 1.0;
+
+    // Visual feedback
+    speakBtn.classList.add('speaking');
+    if (isSlow) {
+      speakBtn.classList.add('slow-mode');
+    } else {
+      speakBtn.classList.remove('slow-mode');
+    }
+
+    const utterance = speakText(text, lang, rate);
+    if (utterance) {
+      const cleanup = () => {
+        speakBtn.classList.remove('speaking');
+        speakBtn.classList.remove('slow-mode');
+      };
+      utterance.onend = cleanup;
+      utterance.onerror = cleanup;
+      // Fallback timeout
+      setTimeout(cleanup, isSlow ? 10000 : 5000);
+    }
+  }
+
+  // ============================================
   // Vocab Click Handler
   // ============================================
   function handleVocabClick(e) {
     // Handle speak button
     const speakBtn = e.target.closest('.btn-speak');
     if (speakBtn) {
-      e.stopPropagation();
-      const text = speakBtn.dataset.speak;
-      const lang = speakBtn.dataset.lang || 'en-US';
-      speakBtn.classList.add('speaking');
-      const utterance = speakText(text, lang);
-      if (utterance) {
-        utterance.onend = () => speakBtn.classList.remove('speaking');
-        utterance.onerror = () => speakBtn.classList.remove('speaking');
-        // Fallback: remove class after a timeout in case events don't fire
-        setTimeout(() => speakBtn.classList.remove('speaking'), 5000);
-      }
+      handleSpeakBtn(speakBtn, e);
       return;
     }
 
@@ -584,16 +621,7 @@
     // Handle speak button (must be before other handlers to prevent bubbling)
     const speakBtn = e.target.closest('.btn-speak');
     if (speakBtn) {
-      e.stopPropagation();
-      const text = speakBtn.dataset.speak;
-      const lang = speakBtn.dataset.lang || 'en-US';
-      speakBtn.classList.add('speaking');
-      const utterance = speakText(text, lang);
-      if (utterance) {
-        utterance.onend = () => speakBtn.classList.remove('speaking');
-        utterance.onerror = () => speakBtn.classList.remove('speaking');
-        setTimeout(() => speakBtn.classList.remove('speaking'), 5000);
-      }
+      handleSpeakBtn(speakBtn, e);
       return;
     }
 
@@ -671,14 +699,14 @@
     preferredVoice = voices.find((v) => v.lang.startsWith('en')) || null;
   }
 
-  function speakText(text, lang) {
+  function speakText(text, lang, rate) {
     if (!('speechSynthesis' in window)) return;
     // Cancel any ongoing speech
     window.speechSynthesis.cancel();
 
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = lang || 'en-US';
-    utterance.rate = 0.9;
+    utterance.rate = rate || 1.0;
     utterance.pitch = 1;
 
     // Use the cached preferred voice if available
